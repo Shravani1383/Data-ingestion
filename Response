@@ -1,0 +1,5 @@
+* **JSON** is best when we want strong observability and traceability in the RAG pipeline because it preserves detailed metadata like page IDs, hierarchy, timestamps, permissions, source URLs, versions, ingestion status, and chunk mappings. It is also scalable, structured, and easier for debugging, filtering, and reprocessing.
+
+* **Markdown** is best for embeddings and retrieval quality because it preserves semantic structure like headings, lists, tables, and code blocks in a clean human-readable format. It is a simpler option if deep observability is not required.
+
+* **Text files** should generally be avoided because they lose document structure, metadata, hierarchy, and formatting, which reduces retrieval accuracy and makes debugging or observability difficult.
