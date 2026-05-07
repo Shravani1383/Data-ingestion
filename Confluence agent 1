@@ -1,0 +1,541 @@
+The CQL generator should be treated as a reasoning/planning node inside LangGraph — not as a tool and not as a separate autonomous agent.
+
+This is the ideal architecture:
+
+Component	Type
+
+CQL Generator	LLM Node
+Search	Tool
+Fetch	Tool
+Reranker	LLM Node
+Traversal logic	Graph logic
+Final synthesis	LLM Node
+
+
+
+---
+
+Why CQL Generator Should Be an LLM Node
+
+Because it performs:
+
+Natural Language
+        ↓
+Structured Retrieval Intent
+        ↓
+Valid CQL
+
+This is reasoning + transformation.
+
+It is NOT:
+
+external side effect
+
+API execution
+
+deterministic utility
+
+
+So it belongs inside:
+
+planner node
+
+structured output node
+
+
+
+---
+
+Recommended CQL Generator Architecture
+
+Do NOT directly ask:
+
+Generate CQL from this query
+
+That becomes:
+
+unsafe
+
+unstable
+
+hallucination-prone
+
+
+
+---
+
+Instead Use a 2-Step Design
+
+STEP 1 — Retrieval Intent Extraction
+
+LLM extracts structured intent.
+
+
+---
+
+Example
+
+User Query
+
+How does deployment rollback work for Kubernetes services?
+
+
+---
+
+Structured Intent
+
+{
+  "intent": "deployment rollback",
+  "entities": [
+    "Kubernetes"
+  ],
+  "space": "ENG",
+  "content_type": "page",
+  "keywords": [
+    "rollback",
+    "deployment",
+    "Kubernetes"
+  ]
+}
+
+
+---
+
+STEP 2 — CQL Builder
+
+Now deterministic logic generates CQL.
+
+
+---
+
+Why This Is Better
+
+Because:
+
+debuggable
+
+auditable
+
+safer
+
+easier to evolve
+
+less hallucination
+
+
+
+---
+
+DO NOT LET THE LLM GENERATE RAW CQL DIRECTLY
+
+Bad:
+
+type = page AND random hallucinated syntax
+
+Instead:
+
+build_cql(intent)
+
+
+---
+
+Recommended Architecture
+
+User Query
+    ↓
+Intent Extraction Node (LLM)
+    ↓
+Structured Retrieval Plan
+    ↓
+Deterministic CQL Builder
+    ↓
+Search Tool
+
+
+---
+
+LANGGRAPH IMPLEMENTATION
+
+Node 1 — Intent Extraction Node
+
+LLM node.
+
+
+---
+
+Input
+
+How does deployment rollback work?
+
+
+---
+
+Output
+
+{
+  "search_needed": True,
+  "keywords": ["deployment", "rollback"],
+  "space": "ENG",
+  "labels": [],
+  "content_type": "page"
+}
+
+
+---
+
+Node 2 — CQL Builder Node
+
+Pure Python node.
+
+NO LLM needed.
+
+
+---
+
+Example
+
+def build_cql(state):
+
+    keywords = state["keywords"]
+
+    keyword_query = " OR ".join(
+        [f'text ~ "{k}"' for k in keywords]
+    )
+
+    cql = f"""
+    type = page
+    AND ({keyword_query})
+    """
+
+    return {
+        "generated_cql": cql
+    }
+
+
+---
+
+This Is Enterprise Grade
+
+Because:
+
+deterministic
+
+testable
+
+observable
+
+low hallucination
+
+easy to maintain
+
+
+
+---
+
+Recommended CQL Generator Pipeline
+
+Query
+  ↓
+Intent Extraction
+  ↓
+Query Expansion
+  ↓
+Entity Extraction
+  ↓
+Space Detection
+  ↓
+Keyword Selection
+  ↓
+Deterministic CQL Build
+
+
+---
+
+Query Expansion (Very Important)
+
+Example:
+
+rollback
+
+should expand to:
+
+rollback
+deployment rollback
+release rollback
+revert deployment
+canary rollback
+
+This dramatically improves retrieval quality.
+
+
+---
+
+Recommended Intent Schema
+
+Use structured output.
+
+
+---
+
+Example Pydantic Model
+
+class RetrievalIntent(BaseModel):
+
+    search_needed: bool
+
+    keywords: List[str]
+
+    expanded_keywords: List[str]
+
+    entities: List[str]
+
+    space: Optional[str]
+
+    labels: List[str]
+
+    content_type: str
+
+    recency_preference: Optional[str]
+
+
+---
+
+Example LangGraph Flow
+
+Router
+   ↓
+Intent Extraction
+   ↓
+CQL Builder
+   ↓
+Search Tool
+   ↓
+Reranker
+   ↓
+Fetch
+
+
+---
+
+VERY IMPORTANT:
+
+Search Metadata First
+
+Your search tool should return ONLY:
+
+{
+  "title": "...",
+  "excerpt": "...",
+  "url": "..."
+}
+
+NOT full page content.
+
+
+---
+
+Suggested Search Strategy
+
+Stage 1 — Broad Search
+
+text ~ "rollback"
+
+Return:
+
+top 20
+
+
+
+---
+
+Stage 2 — Rerank
+
+Use LLM reranker.
+
+Keep:
+
+top 3
+
+
+
+---
+
+Stage 3 — Fetch
+
+Fetch full content ONLY now.
+
+This keeps:
+
+latency low
+
+token cost low
+
+traversal manageable
+
+
+
+---
+
+Advanced CQL Features You Should Add Later
+
+
+---
+
+A. Space Detection
+
+Example:
+
+finance onboarding SOP
+
+maps to:
+
+space = FIN
+
+
+---
+
+B. Label-Based Retrieval
+
+Example:
+
+label = "runbook"
+
+
+---
+
+C. Recency Filtering
+
+Example:
+
+lastmodified > now("-30d")
+
+
+---
+
+D. User Context
+
+Example:
+
+my team docs
+
+Could map to:
+
+user space
+
+team labels
+
+
+
+---
+
+BEST PRACTICE:
+
+Keep CQL Builder Deterministic
+
+LLM should ONLY:
+
+infer intent
+
+extract entities
+
+generate keywords
+
+
+Actual CQL syntax generation: ✅ deterministic code
+
+
+---
+
+Suggested Folder Structure
+
+graph/
+  nodes/
+    router.py
+    intent_extractor.py
+    cql_builder.py
+    reranker.py
+    answer_generator.py
+
+  tools/
+    confluence_search.py
+    confluence_fetch.py
+
+  traversal/
+    recursive_fetch.py
+    relevance_scoring.py
+
+  state/
+    graph_state.py
+
+
+---
+
+Production-Level CQL Strategy
+
+You should eventually support:
+
+Retrieval Type	Use
+
+CQL keyword search	exact retrieval
+Vector retrieval	semantic retrieval
+Hybrid retrieval	best quality
+Graph traversal	relationship discovery
+
+
+
+---
+
+Final Recommended Design for CQL
+
+DO THIS
+
+LLM → structured retrieval intent
+       ↓
+deterministic CQL builder
+       ↓
+search tool
+
+
+---
+
+DO NOT DO THIS
+
+LLM directly writes arbitrary CQL
+
+because:
+
+unstable
+
+hard to debug
+
+syntax hallucinations
+
+unsafe
+
+inconsistent retrieval quality
+
+
+
+---
+
+Ideal LangGraph Chain for Search Flow
+
+User Query
+   ↓
+Router
+   ↓
+Intent Extraction (LLM)
+   ↓
+CQL Builder (deterministic)
+   ↓
+Search Tool
+   ↓
+Reranker
+   ↓
+Fetch
+   ↓
+Recursive Traversal
+   ↓
+Compression
+   ↓
+Answer
