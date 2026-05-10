@@ -1,19 +1,96 @@
 Task
 ↓
+User goal or implementation request.
+Example:
+“Add MFA validation to login flow.”
+
+↓
+
 Tree Observer
+Scans repository structure only (folders/files).
+Identifies likely architectural areas:
+- auth
+- middleware
+- tests
+- database
+Produces initial candidate regions without reading full code.
+
 ↓
+
 Candidate File Observer
+Analyzes candidate directories/files.
+Identifies:
+- files likely to be modified
+- dependency files
+- reference/example files
+- verification/test files
+Narrows execution scope.
+
 ↓
+
 Semantic Retrieval
+Performs embedding/vector/code search using task-specific queries.
+Retrieves only highly relevant code chunks, functions, and implementation patterns.
+Avoids loading entire repository into context.
+
 ↓
+
 Symbol Extractor
+Extracts exact implementation targets:
+- functions
+- classes
+- methods
+- imports
+- APIs
+Usually uses AST parsing or language servers.
+Converts retrieved code into precise mutation targets.
+
 ↓
+
 Execution Context Builder
+Builds compact high-signal implementation context for downstream agents.
+Includes:
+- task
+- target symbols
+- relevant snippets
+- constraints
+- allowed files
+- architectural notes
+
 ↓
+
 Planner
+Converts implementation goal into execution strategy.
+Determines:
+- implementation order
+- dependencies
+- affected systems
+- verification strategy
+
 ↓
+
 Todo Generator
+Breaks plan into small executable tasks.
+Each todo contains:
+- scope
+- allowed files
+- dependencies
+- verification commands
+- execution objective
+
 ↓
+
 Patch Generator
+Generates semantic edit operations or unified diffs for a single todo.
+Creates minimal safe code modifications instead of rewriting whole files.
+
 ↓
+
 Sandbox
+Applies patches in isolated environment.
+Runs:
+- formatters
+- builds
+- tests
+- diagnostics
+Commits successful changes or rolls back failures safely.
