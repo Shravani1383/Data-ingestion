@@ -1,9 +1,0 @@
-Idea: Jira-to-Code Skills for Service Repositories
-
-We can introduce skills across our service repositories where a developer simply provides a Jira description (feature, bug fix, UI change, enhancement, etc.), and the skill first creates an implementation plan based on our engineering standards, repository patterns, and architecture conventions, then generates the required code changes automatically.
-
-Skills would act as intelligent workflow agents that understand repository context instead of just reusable templates.
-
-Example: A Jira ticket for adding a new backend API could make the skill identify impacted modules, plan the implementation, and generate controller, service, validation, tests, and Swagger updates following existing repository standards.
-
-We can integrate this with Copilot and leverage the models we already have there, making it a strong productivity use case for engineering teams.
