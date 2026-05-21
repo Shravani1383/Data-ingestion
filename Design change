@@ -1,474 +1,400 @@
-Design a premium enterprise AI workflow screen for an HSBC sustainability platform called “Transition Copilot”.
 
-The screen should use a CLEAN TWO-COLUMN LAYOUT instead of multiple dashboards.
+Redesign the ESG Profile modal for an HSBC enterprise sustainability platform called “Transition Copilot”.
 
-The goal is to create a cinematic AI experience that visually demonstrates:
-“How enterprise procurement documents become Scope 3 sustainability intelligence through AI.”
+The current modal already contains:
 
-This should feel:
+- ESG score
+- risk level
+- Scope 3 estimate
+- financing eligibility
+- sustainability summary
 
-- futuristic
-- premium
-- intelligent
-- minimal
-- enterprise-grade
+BUT now redesign it into a MUCH MORE PREMIUM AI-GENERATED EXECUTIVE INTELLIGENCE PANEL.
+
+The modal should feel:
+
 - cinematic
-- trustworthy
+- intelligent
+- futuristic
+- executive-grade
+- AI-native
+- financial-enterprise quality
+
+This should NOT feel like:
+
+- generic ESG dashboard
+- analytics admin panel
+- BI tool
+
+Instead it should feel like:
+“AI-generated sustainability intelligence briefing for enterprise decision-makers.”
 
 Design inspiration:
 
-- Apple
 - Palantir Foundry
-- Perplexity AI
-- Linear
-- Stripe
-- Notion AI
+- Stripe Dashboard
 - Bloomberg intelligence systems
+- Apple-level spacing
+- Linear
+- Perplexity AI
+- modern fintech platforms
+
+Use:
+
+- dark charcoal premium background
+- soft layered glass surfaces
+- subtle shadows
+- spacious layout
+- minimal borders
+- elegant typography
+- intelligent motion
+- cinematic composition
 
 Avoid:
 
-- cluttered dashboards
-- too many cards
-- DevOps UI feel
-- excessive borders
-- neon cyberpunk look
-
-Use:
-
-- spacing
-- depth
-- intelligent animations
-- flowing orchestration
-- minimal surfaces
-- subtle glow
-- soft shadows
+- too many boxes
+- heavy outlines
+- bright neon
+- cramped sections
+- excessive labels
 
 ---
 
-MAIN LAYOUT
+MODAL STRUCTURE
 
-Create ONLY TWO MAIN COLUMNS.
+The ESG modal should open as:
 
-LEFT COLUMN → Source Document
-RIGHT COLUMN → AI Reasoning Pipeline
+- large centered glassmorphism overlay
+- softly blurred background
+- premium cinematic appearance
 
-The screen should feel highly focused and immersive.
+Rounded corners:
+large and elegant.
 
-Use:
-
-- large breathing spaces
-- clean hierarchy
-- connected animations
-- progressive AI reveal
-
----
-
-LEFT COLUMN — SOURCE DOCUMENT
-
-Width: ~38%
-
-This should look like a premium enterprise document intelligence viewer.
-
-Top header:
-“Source Document”
-
-Below:
-uploaded McCain procurement invoice preview.
-
-Example file:
-“fertilizer_invoice_march2026.pdf”
-
-Document appearance:
-
-- clean PDF viewer
-- modern glass surface
-- subtle shadow
-- rounded corners
-
-AI visually scans document live.
-
-Add:
-
-- moving scan beam animation
-- highlighted extraction overlays
-- floating AI labels
-
-Highlighted fields:
-
-- Supplier Name
-- Fertilizer Type
-- Quantity
-- Diesel Usage
-- Region
-- Invoice Amount
-
-Floating extraction chips appear dynamically:
-“Detected: Urea Fertilizer”
-“500kg identified”
-“Agricultural supplier recognized”
-
-At bottom:
-minimal extraction summary:
-
-Supplier:
-Green Valley Potatoes
-
-Product:
-Urea Fertilizer
-
-Quantity:
-500kg
-
-Confidence:
-98%
-
-Bottom-left:
-small immutable audit hash indicator.
-
-This column should feel:
-
-- intelligent
-- document-centric
-- trustworthy
-- AI-powered
+The modal should feel:
+important
+immersive
+high-level
+strategic
 
 ---
 
-RIGHT COLUMN — AI REASONING PIPELINE
+SECTION 1 — EXECUTIVE HEADER
 
-Width: ~62%
+Top section should feel premium and minimal.
 
-THIS IS THE HERO SECTION.
-
-This should feel like:
-an AI orchestration engine actively reasoning in real time.
-
-NOT stacked cards.
-
-Instead:
-Create ONE connected cinematic vertical AI workflow.
-
-Dark premium background with:
-
-- subtle floating particles
-- soft depth
-- intelligent glow
-- animated connector lines
-
-Top header:
-“AI Sustainability Intelligence Pipeline”
-
-Subtitle:
-“Transforming procurement data into auditable Scope 3 intelligence.”
-
-Top-right:
-animated status pill:
-“Pipeline Active”
-
----
-
-AI WORKFLOW STRUCTURE
-
-The entire workflow should feel like ONE connected system.
-
-Use:
-
-- vertical orchestration nodes
-- flowing connections
-- sequential activation
-- AI thinking animations
-
-Each stage should activate progressively.
-
----
-
-STAGE 1 — AI VISION EXTRACTION
-
-Title:
-AI Vision Extraction
-
-Subtitle:
-OCR + structured entity detection
-
-Show live extraction stream:
-Supplier → Green Valley Potatoes
-Product → Urea Fertilizer
-Quantity → 500kg
-
-Add:
-
-- scan animation
-- glowing extraction pulse
-- confidence indicator
-
-Minimal and elegant.
-
----
-
-STAGE 2 — OPERATIONAL ACTIVITY INTELLIGENCE
-
-Title:
-Operational Activity Intelligence
-
-Subtitle:
-Business meaning interpretation
-
-This stage demonstrates:
-AI understanding sustainability meaning from raw procurement data.
-
-Animated semantic transformation:
-
-“Urea Fertilizer”
-↓
-“Nitrogen-intensive agricultural input”
-↓
-“Agricultural emissions activity”
-
-Display floating ESG semantic tags:
-Agriculture
-Nitrogen Input
-Supply Chain Activity
-Farming Operations
-
-Use:
-
-- connected semantic nodes
-- flowing AI particles
-- intelligent mapping visuals
-
-This section should feel:
-advanced and semantic.
-
----
-
-STAGE 3 — ESG SEMANTIC MAPPING
-
-Title:
-ESG Semantic Mapping
-
-Subtitle:
-Scope classification engine
-
-THIS IS THE CORE AI MOMENT.
-
-Show cinematic reasoning chain:
-
-Urea Fertilizer
-↓
-Nitrogen-heavy input
-↓
-Agricultural emissions source
-↓
-GHG Protocol mapping
-↓
-Scope 3 Assigned
+LEFT SIDE:
+Supplier identity.
 
 Display:
-“Scope 3 — Purchased Goods & Services”
+Green Valley Potatoes
+Idaho, USA • Tier-1 Agricultural Supplier
 
 Add:
-small “GHG Protocol Verified” badge.
-
-Animate:
-
-- flowing ESG nodes
-- reasoning pulses
-- semantic connection graph
-
-This section must feel:
-like true AI reasoning.
-
----
-
-STAGE 4 — CARBON INTELLIGENCE ENGINE
-
-Title:
-Carbon Intelligence Engine
-
-Subtitle:
-Emission factor calculation
-
-This becomes the visual centerpiece.
-
-Show animated calculation flow:
-
-500kg Urea Fertilizer
-×
-Regional Emission Factors
-×
-EPA/IPCC Databases
-
-2.10 tCO₂e
-
-Animate:
-
-- counting numbers
-- carbon pulse effects
-- live emission meter
-- flowing calculation particles
+supplier icon/logo placeholder.
 
 Below:
-small emission breakdown visualization:
-Agriculture → 1.5t
-Logistics → 0.4t
-Energy → 0.2t
+small AI-generated supplier classification tags:
+Agriculture
+Nitrogen Intensive
+Transition Ready
 
-This should feel:
-scientific
-premium
-trustworthy
-financial-grade
+RIGHT SIDE:
+Large animated ESG score ring.
+
+Example:
+72 / 100
+
+Below:
+“AI-generated ESG intelligence score”
+
+Add:
+subtle animated pulse around score ring.
 
 ---
 
-STAGE 5 — BENCHMARK INTELLIGENCE
+SECTION 2 — EXECUTIVE KPI STRIP
+
+Create elegant horizontal KPI cards.
+
+Metrics:
+
+- Risk Level
+- Transition Readiness
+- Scope 3 Contribution
+- Financing Eligibility
+
+Example:
+Risk → Medium
+Transition Readiness → High
+Scope 3 → 2.10 tCO₂e
+Financing Eligibility → 87/100
+
+Use:
+
+- minimal cards
+- soft gradients
+- premium spacing
+- subtle glow accents
+
+No harsh borders.
+
+---
+
+SECTION 3 — PRIMARY EMISSION DRIVERS
+
+THIS IS A NEW IMPORTANT SECTION.
 
 Title:
-Benchmark Intelligence
+“Primary Emission Drivers”
 
 Subtitle:
-Industry sustainability comparison
+“AI-identified operational contributors to Scope 3 emissions”
+
+Visualize:
+beautiful animated horizontal contribution bars.
+
+Example:
+
+Nitrogen Fertilizer → 48%
+Diesel Irrigation → 22%
+Cold Storage Energy → 17%
+Transport Logistics → 13%
+
+Add:
+
+- animated loading bars
+- subtle glowing contribution indicators
+- hoverable AI insights
+
+Example hover insight:
+“High nitrogen-intensive fertilizer dependency detected.”
+
+This section should feel:
+highly intelligent and operational.
+
+---
+
+SECTION 4 — AI SCENARIO MODELING
+
+THIS SHOULD BECOME THE HERO SECTION.
+
+Title:
+“AI Transition Simulation”
+
+Subtitle:
+“Projected sustainability impact based on transition strategies”
+
+Create cinematic before/after visualization.
+
+Current State:
+2.10 tCO₂e
+
+↓
+
+With Precision Farming:
+1.72 tCO₂e
+
+↓
+
+With Bio-Fertilizer Transition:
+1.43 tCO₂e
 
 Show:
 
-- comparison bars
-- benchmark indicators
-- target alignment visuals
+- animated reduction graph
+- projected ESG score increase
+- estimated cost savings
+- emission reduction percentage
+
+Example:
+Projected Reduction → 22%
+Projected ESG Score → 81
+
+Use:
+
+- flowing transformation animation
+- futuristic simulation visuals
+- intelligent prediction effects
+
+This section should feel:
+like enterprise AI forecasting.
+
+---
+
+SECTION 5 — BENCHMARK & PEER INTELLIGENCE
+
+Title:
+“Benchmark Intelligence”
+
+Subtitle:
+“Supplier positioning against regional and industry sustainability standards”
+
+Create:
+minimal elegant comparison layout.
+
+Metrics:
+
+- Fertilizer Usage
+- Water Efficiency
+- Carbon Intensity
+- Renewable Adoption
+
+Compare:
+Supplier vs Regional Average
+
+Use:
+
+- radar chart
+- benchmark bars
+- percentile indicators
 
 AI Insights:
 “18% above fertilizer benchmark”
-“High nitrogen dependency detected”
+“Transition readiness exceeds regional average”
 
-Elegant and minimal.
+This section should feel:
+analytical and executive-level.
 
 ---
 
-STAGE 6 — TRANSITION COPILOT PREVIEW
+SECTION 6 — HSBC FINANCING INTELLIGENCE
 
 Title:
-Transition Intelligence Preview
+“HSBC Sustainable Financing Opportunities”
 
 Subtitle:
-AI-generated sustainability actions
+“AI-generated financing recommendations”
 
-Show emerging recommendation cards:
+Create premium financing cards.
 
-Precision Fertilizer Application
-→ 14% CO₂ reduction
+Example:
+
+Precision Agriculture Upgrade
+→ Estimated Financing: $120k
+→ CO₂ Reduction: 14%
+
+Renewable Irrigation System
+→ Financing Support: $80k
+→ Water Savings: 31%
 
 Bio-Fertilizer Transition
-→ Sustainability improvement +18
+→ Sustainability-linked loan eligible
 
-Drip Irrigation
-→ 31% water reduction
+Add:
 
-Each card:
+- ROI estimates
+- implementation difficulty
+- repayment outlook
+- financing readiness score
 
-- minimal
-- elegant
-- floating appearance
-- subtle AI glow
+This section should feel:
+directly connected to HSBC business value.
 
 ---
 
-FINAL ACTION BUTTON
+SECTION 7 — AI GOVERNANCE & TRACEABILITY
 
-At the END of the AI pipeline:
+Title:
+“AI Governance & Verification”
 
-Large premium CTA button:
+This section builds enterprise trust.
 
-“Open ESG Intelligence Profile”
+Show:
+AI Extraction Confidence → 98%
+Emission Estimate Confidence → 91%
+GHG Protocol Mapping → Verified
+Human Auditor Review → Pending
+
+Add:
+
+- audit verification chip
+- immutable traceability indicator
+- AI reasoning visibility
+- compliance validation badge
+
+Use:
+minimal enterprise styling.
+
+This section should feel:
+bank-grade and trustworthy.
+
+---
+
+SECTION 8 — AI EXECUTIVE SUMMARY
+
+Large highlighted AI-generated insight panel.
+
+Title:
+“AI Sustainability Summary”
+
+Example text:
+
+“AI analysis indicates emissions are primarily driven by nitrogen-intensive agricultural inputs and diesel-powered irrigation systems. Transition simulation suggests precision agriculture and bio-fertilizer adoption could reduce estimated Scope 3 emissions by up to 22% while significantly improving financing eligibility and sustainability maturity.”
+
+Highlight:
+
+- key insights
+- reduction percentages
+- financing opportunity phrases
+
+Use:
+
+- elegant AI-generated text styling
+- subtle gradient background
+- premium spacing
+
+---
+
+BOTTOM CTA SECTION
+
+Large cinematic action button.
+
+Button text:
+“Open Transition Copilot”
 
 Button style:
 
 - premium HSBC red
 - soft glow
 - floating appearance
-- cinematic hover animation
+- subtle hover animation
 
-When clicked:
-OPEN MODAL / POPUP ESG DASHBOARD
-
----
-
-ESG PROFILE MODAL / POPUP
-
-This should appear as:
-large glassmorphism overlay popup.
-
-Background dims softly.
-
-The popup contains:
-a clean executive ESG dashboard.
+Below button:
+small helper text:
+“Generate detailed sustainability transition roadmap”
 
 ---
 
-MODAL CONTENT
+MOTION & INTERACTIONS
 
-TOP SECTION:
-Supplier ESG Profile
+Add:
 
-Supplier:
-Green Valley Potatoes
+- subtle floating particles
+- animated metric counting
+- glowing graph transitions
+- smooth modal animations
+- AI pulse effects
+- cinematic reveal sequences
 
-ESG Score:
-72
-
-Risk Level:
-Medium
-
-Transition Readiness:
-High
+The modal should feel:
+alive and intelligent.
 
 ---
 
-MIDDLE SECTION
+FINAL DESIGN GOAL
 
-Show executive dashboard visuals:
+The ESG profile modal should visually communicate:
 
-- Scope 3 breakdown chart
-- emission trend graph
-- benchmark radar chart
-- sustainability maturity score
-- financing eligibility score
+“This AI system transforms procurement documents into auditable sustainability intelligence, predictive Scope 3 analysis, transition simulations, and financing opportunities.”
 
-Include:
-AI-generated sustainability summary.
+When executives see this modal they should feel:
 
-Example:
-“Supplier exhibits elevated fertilizer-related agricultural emissions. Precision agriculture transition could reduce emissions by 22%.”
+- confidence
+- intelligence
+- strategic value
+- enterprise trust
+- HSBC-level sophistication
 
----
-
-BOTTOM SECTION
-
-Large CTA button:
-
-“Open Transition Copilot”
-
-This navigates to:
-full strategic sustainability transition planning screen.
-
----
-
-OVERALL EXPERIENCE
-
-The entire flow should feel like:
-
-Document
-→ AI reasoning
-→ ESG intelligence
-→ Executive sustainability profile
-→ Transition strategy
-
-Everything should feel:
-
-- cinematic
-- minimal
-- intelligent
-- enterprise-grade
-- emotionally impressive
-- HSBC-level premium
-
-The interface should communicate:
-“This AI system transforms procurement documents into auditable sustainability intelligence and actionable transition opportunities.”
+This should feel like:
+an AI-generated sustainability command center, not a traditional ESG dashboard.
