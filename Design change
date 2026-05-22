@@ -1,553 +1,469 @@
-Design a premium enterprise-grade “Supplier Data Ingestion & Intelligence Workspace” for HSBC Sustainable Transition Copilot.
+Design “Step 3 — Configure Supplier Intelligence Workspace” for HSBC Sustainable Transition Copilot.
 
 IMPORTANT:
-This is NOT an ESG dashboard.
+This screen comes AFTER enterprise systems have already been connected.
 
-This is:
-- a supplier sustainability intelligence ingestion platform
-- a fragmented enterprise data unification system
-- an AI-assisted operational data orchestration layer
+The purpose of this screen is NOT onboarding.
 
-The goal of this experience is:
-- connect fragmented enterprise systems
-- ingest supplier operational data
-- unify supplier records
-- build supplier profiles
-- prepare sustainability intelligence pipelines
+The purpose is:
+- configure operational data ingestion
+- define supplier identity resolution logic
+- set ingestion scopes
+- define governance controls
+- prepare unified supplier intelligence orchestration
 
-DO NOT focus on analytics or charts yet.
+This screen should feel:
+- enterprise operational
+- intelligent
+- governed
+- realistic
+- configurable
+- trustworthy
 
-The UI should primarily communicate:
-“Connect systems → ingest fragmented supplier data → unify supplier intelligence.”
+NOT:
+- empty onboarding wizard
+- generic settings page
+- simplistic form screen
 
 ==================================================
 OVERALL DESIGN STYLE
 ==================================================
 
 Style:
-- modern enterprise SaaS
-- AI-native operational platform
-- premium HSBC product
-- clean, intelligent, process-driven UI
+- premium enterprise SaaS
+- operational intelligence platform
+- AI-assisted enterprise workflow
+- clean white + light gray design
+- HSBC red primary actions
+- subtle emerald operational indicators
+- modern procurement intelligence UI
 
 Design Inspiration:
-- Stripe Dashboard
-- Notion AI
+- Palantir Foundry
+- Stripe enterprise onboarding
 - Scale AI operational interfaces
-- Linear
-- Palantir Foundry (simplified)
-- modern procurement intelligence systems
+- modern governance configuration systems
 
-Color Palette:
-- clean white/light gray background
-- HSBC red accent
-- soft emerald sustainability indicators
-- subtle AI blue highlights
-- dark typography
-- minimal glassmorphism
+Avoid:
+- too much whitespace
+- simplistic “Next Step” onboarding
+- static forms
+- generic settings dashboard
 
-DO NOT:
-- make it look like PowerBI
-- clutter with charts
-- overload with analytics
-- use futuristic neon cyberpunk UI
-
-The interface should feel:
-- trustworthy
-- operational
-- enterprise-grade
-- intelligent
-- scalable
+The UI should feel:
+“configure how fragmented enterprise systems are unified into supplier intelligence.”
 
 ==================================================
-PRIMARY USER
+PAGE HEADER
 ==================================================
 
-The user is:
-- enterprise procurement team
-- sustainability team
-- operations team
-- supply chain management team
+Large title:
 
-NOT suppliers.
-
-==================================================
-END-TO-END USER FLOW
-==================================================
-
-The entire experience should visually guide users through:
-
-1. Create Company Workspace
-2. Connect Enterprise Systems
-3. Configure Data Access
-4. Ingest Operational Documents
-5. Normalize Supplier Data
-6. Resolve Supplier Identities
-7. Build Unified Supplier Profiles
-8. Generate Supplier Intelligence Foundation
-
-==================================================
-SCREEN 1 — CREATE COMPANY WORKSPACE
-==================================================
-
-Page Title:
-“Create Supplier Sustainability Workspace”
+“Configure Supplier Intelligence Workspace”
 
 Subheading:
-Set up your operational sustainability workspace to unify supplier intelligence across fragmented enterprise systems.
 
-Layout:
-clean onboarding-style setup page.
+Define how operational systems, procurement records, and supplier documents should be unified into a centralized supplier intelligence layer.
 
-Fields:
-- Company Name
-- Industry
-- Primary Operations
-- Estimated Supplier Count
-- Known Supplier Categories
+Top Progress Indicator:
+Step 3 of 8
 
-Example categories:
-- agriculture suppliers
-- logistics providers
-- packaging vendors
-- manufacturing partners
+Show previous steps completed:
+✓ Company Workspace
+✓ Data Source Connections
 
-UI Style:
-- clean onboarding wizard
-- intelligent AI assistant guidance panel on right
-- modern form inputs
-- subtle operational illustrations
-
-BOTTOM CTA:
-“Continue to Data Connections”
+Current:
+● Supplier Intelligence Configuration
 
 ==================================================
-SCREEN 2 — CONNECT DATA SOURCES
+LAYOUT STRUCTURE
 ==================================================
 
-THIS IS THE MOST IMPORTANT SCREEN.
-
-Page Title:
-“Connect Enterprise Data Sources”
-
-Subheading:
-Securely connect procurement systems, communication platforms, cloud storage, and operational records to unify supplier intelligence.
-
-==================================================
-CONNECTOR GRID
-==================================================
-
-Group connectors into categories.
+3-column enterprise layout.
 
 --------------------------------------------------
-CATEGORY 1 — PROCUREMENT & OPERATIONS
+LEFT PANEL — CONNECTED SYSTEMS
 --------------------------------------------------
 
-Cards:
-- Outlook
-- SharePoint
-- SAP
-- Oracle
-- Excel
-- Google Sheets
+This panel shows all previously connected systems.
 
-Each connector card includes:
+Title:
+“Connected Enterprise Sources”
+
+Each source card includes:
 - connector icon
-- short operational description
-- type of supplier data accessible
-- security indicator
-- Connect button
+- status
+- records detected
+- sync state
+- access scope
 
-Example:
+==================================================
+EXAMPLE SOURCE CARDS
+==================================================
+
 OUTLOOK
 
-Description:
-Access supplier invoices, procurement conversations, logistics attachments, and operational documents.
+✓ Connected
+
+324 procurement attachments detected
 
 Data Types:
 - invoices
-- quotations
-- logistics bills
-- procurement communication
+- logistics documents
+- supplier communication
 
-Button:
-[ Connect Securely ]
-
---------------------------------------------------
-CATEGORY 2 — CLOUD STORAGE
---------------------------------------------------
-
-Cards:
-- Google Drive
-- OneDrive
-- Dropbox
-
-Descriptions:
-Access ESG reports, utility bills, procurement files, and supplier documents stored across shared drives.
+Last Sync:
+2 minutes ago
 
 --------------------------------------------------
-CATEGORY 3 — COMMUNICATION CHANNELS
---------------------------------------------------
 
-Cards:
-- WhatsApp Business
-- Teams
-- Telegram
+GOOGLE SHEETS
 
-Descriptions:
-Ingest invoice images, shipment confirmations, operational updates, and supplier communication records.
-
---------------------------------------------------
-CATEGORY 4 — MANUAL IMPORTS
---------------------------------------------------
-
-Cards:
-- PDF Upload
-- CSV Upload
-- Excel Upload
-- Image Upload
-
-==================================================
-CONNECTOR STATUS VISUALS
-==================================================
-
-Each connector card shows status:
-
-- Not Connected
-- Connecting
-- Syncing
-- Connected
-- Permission Required
-
-Connected cards glow subtly.
-
-==================================================
-SCREEN 3 — CONNECTOR CONFIGURATION
-==================================================
-
-When user clicks a connector:
-open enterprise-style configuration modal.
-
-==================================================
-EXAMPLE — OUTLOOK CONFIGURATION
-==================================================
-
-Modal Title:
-“Configure Outlook Access”
-
-Sections:
-
---------------------------------------------------
-SELECT MAILBOX FOLDERS
---------------------------------------------------
-
-Checkboxes:
-☑ Procurement
-☑ Supplier Invoices
-☑ Logistics
-☐ Personal
-☐ HR
-
---------------------------------------------------
-FILE TYPES
---------------------------------------------------
-
-☑ PDF
-☑ Excel
-☑ CSV
-☑ Images
-
---------------------------------------------------
-DATE RANGE
---------------------------------------------------
-
-Dropdown:
-- Last 3 months
-- Last 6 months
-- Last 12 months
-- Custom
-
---------------------------------------------------
-SYNC SETTINGS
---------------------------------------------------
-
-☑ Continuous sync enabled
-☑ Read-only ingestion
-
-BOTTOM BUTTON:
-[ Start Secure Sync ]
-
-IMPORTANT:
-The UI should strongly communicate:
-- governed ingestion
-- enterprise security
-- read-only access
-
-==================================================
-SCREEN 4 — LIVE INGESTION CENTER
-==================================================
-
-THIS IS THE BIGGEST WOW SCREEN.
-
-Page Title:
-“Supplier Intelligence Processing”
-
-Subheading:
-Operational records are being normalized and mapped into unified supplier intelligence.
-
-==================================================
-LAYOUT
-==================================================
-
---------------------------------------------------
-LEFT PANEL — CONNECTED SOURCES
---------------------------------------------------
-
-List all connected systems.
-
-Each source displays:
-- sync status
-- files processed
-- suppliers detected
-- latest sync timestamp
-
-Example:
-Outlook
 ✓ Connected
-324 attachments processed
 
-Google Drive
-Syncing…
-148 documents detected
+112 supplier transaction rows detected
 
---------------------------------------------------
-CENTER PANEL — LIVE PROCESSING FEED
---------------------------------------------------
-
-Animated operational feed.
-
-This should feel:
-- alive
-- AI-assisted
-- operationally intelligent
-
-Example feed events:
-
-Scanning procurement attachments...
-Parsing supplier invoices...
-Detecting supplier references...
-Normalizing procurement records...
-Extracting transaction metadata...
-Matching supplier entities...
-Resolving duplicate suppliers...
-Linking operational records...
-Building supplier profiles...
-
-Use:
-- animated loading states
-- live processing indicators
-- flowing operational activity
+Detected:
+- procurement tracking
+- cost records
+- supplier lists
 
 --------------------------------------------------
-RIGHT PANEL — INGESTION SUMMARY
+
+SHAREPOINT
+
+✓ Connected
+
+156 operational documents detected
+
+Detected:
+- ESG reports
+- utility bills
+- supplier records
+
 --------------------------------------------------
 
-Live metrics cards:
+WHATSAPP BUSINESS
 
-- Total Documents Processed
-- Suppliers Identified
-- Operational Records Linked
-- Duplicate Suppliers Resolved
-- Procurement Sources Connected
-- Pending Review Records
+✓ Connected
 
-Use subtle operational visuals.
+267 invoice images detected
 
-==================================================
-SCREEN 5 — DOCUMENT NORMALIZATION VIEW
-==================================================
-
-Page Title:
-“Operational Data Normalization”
-
-Show:
-how fragmented records are unified.
+Detected:
+- invoice photos
+- shipment confirmations
+- operational updates
 
 ==================================================
-LAYOUT
+CENTER PANEL — CONFIGURATION WORKSPACE
 ==================================================
 
-LEFT SIDE:
-Original raw records.
-
-Examples:
-- Outlook invoice attachment
-- Google Sheet supplier row
-- WhatsApp invoice image
-- SharePoint procurement file
-
-RIGHT SIDE:
-Normalized operational record.
-
-Example:
-
-Supplier:
-Green Valley Potatoes
-
-Detected Across:
-- Outlook
-- Google Sheets
-- WhatsApp
-- SharePoint
-
-Detected Categories:
-- agriculture supplier
-- fertilizer procurement
-
-Linked Operational Records:
-42
+THIS IS THE MAIN SECTION.
 
 ==================================================
-SCREEN 6 — SUPPLIER ENTITY RESOLUTION
+SECTION 1 — SUPPLIER IDENTITY MATCHING
 ==================================================
 
-THIS IS A KEY DIFFERENTIATOR SCREEN.
+Card Title:
+“Supplier Identity Resolution Rules”
 
-Page Title:
-“Supplier Identity Resolution”
-
-Subheading:
-Fragmented supplier records are automatically unified into consolidated supplier profiles.
+Description:
+Configure how fragmented supplier records should be identified and unified across connected systems.
 
 ==================================================
-VISUALIZATION
+MATCHING RULES
 ==================================================
 
-Show supplier variations merging visually.
+Interactive checkbox list:
+
+☑ Supplier Name Similarity
+☑ GST / Tax Identifier
+☑ Email Domain
+☑ Address Similarity
+☑ Procurement Category
+☑ Invoice Metadata
+☑ Phone Number Matching
+
+==================================================
+MATCH CONFIDENCE SLIDER
+==================================================
+
+Title:
+“Supplier Match Confidence”
+
+Slider:
+Strict ←────────────→ Flexible
+
+Tooltip:
+
+Strict:
+Higher accuracy, fewer automatic merges
+
+Flexible:
+Broader supplier consolidation across fragmented systems
+
+==================================================
+LIVE PREVIEW PANEL INSIDE CARD
+==================================================
+
+Show example supplier merge preview.
 
 Example:
 
 Green Valley Potatoes Pvt Ltd
 GV Potatoes
 Green Valley Agro
-Green Valley Potatoes
 
-↓ merges into ↓
+↓ automatically unified into ↓
 
 Unified Supplier Profile
 
-Use:
-- flowing node connections
-- merge animations
-- operational graph visuals
-
-RIGHT PANEL:
-Confidence indicators:
-- Name similarity
-- Transaction overlap
-- Address match
-- Procurement category match
+Confidence:
+94%
 
 ==================================================
-SCREEN 7 — SUPPLIER NETWORK VIEW
+SECTION 2 — OPERATIONAL PRIORITIES
 ==================================================
 
-Page Title:
-“Unified Supplier Intelligence Workspace”
+Card Title:
+“Operational Sustainability Focus Areas”
 
-Show:
-AI-generated supplier profiles.
-
-Grid/list of supplier cards.
+Description:
+Help prioritize supplier operational signals relevant to your organization.
 
 ==================================================
-SUPPLIER CARD DESIGN
+SELECTABLE INDUSTRY TAGS
 ==================================================
 
-Supplier Name:
-Green Valley Potatoes
+Examples:
+☑ Manufacturing
+☑ Logistics
+☑ Agriculture Procurement
+☑ Packaging
+☑ Retail Operations
+☑ Refrigeration
+☑ Energy Consumption
+☑ Transportation
+☑ Cold Storage
+☑ Warehousing
 
-Connected Sources:
-- Outlook
-- Google Drive
-- Google Sheets
-
-Detected Operational Categories:
-- fertilizer procurement
-- irrigation equipment
-
-Operational Activity:
-High
-
-Records Linked:
-142
-
-Data Completeness:
-Moderate
-
-Buttons:
-- View Supplier Profile
-- Review Operational Records
+Selected tags appear highlighted.
 
 ==================================================
-SCREEN 8 — DATA GOVERNANCE & COVERAGE
+SECTION 3 — DATA INGESTION SCOPE
 ==================================================
 
-Page Title:
-“Data Governance & Coverage”
+Card Title:
+“Ingestion Scope Configuration”
 
-Show enterprise governance controls.
-
-==================================================
-SECTIONS
-==================================================
-
-- Connected systems
-- Permission scopes
-- Sync frequency
-- Audit logs
-- Supplier coverage completeness
-- Missing data indicators
-- Data ingestion history
+Description:
+Select which operational records should be included in supplier intelligence processing.
 
 ==================================================
-MISSING DATA DETECTION
+PROCUREMENT DATA
 ==================================================
 
-Example card:
-
-Potential Missing Supplier Information
-
-Supplier references detected in procurement records without supporting operational documents.
-
-Suggested Actions:
-- connect additional systems
-- upload supporting invoices
-- enrich supplier profile manually
+☑ Supplier Invoices
+☑ Purchase Orders
+☑ Vendor Payments
+☑ Procurement Ledgers
+☑ Supplier Contracts
 
 ==================================================
-IMPORTANT PRODUCT MESSAGE
+OPERATIONAL RECORDS
 ==================================================
 
-Throughout the experience, the UI must communicate:
+☑ Utility Bills
+☑ Fuel Expenses
+☑ Logistics Records
+☑ Maintenance Invoices
+☑ Equipment Procurement
 
-“This platform unifies fragmented operational supplier data into a centralized supplier intelligence foundation.”
+==================================================
+ESG & COMPLIANCE
+==================================================
+
+☑ Certifications
+☑ Audit Reports
+☑ Sustainability Disclosures
+☑ Compliance Records
+
+==================================================
+DATE RANGE CONFIGURATION
+==================================================
+
+Dropdown:
+- Last 3 months
+- Last 6 months
+- Last 12 months
+- Custom Range
+
+==================================================
+SYNC MODE
+==================================================
+
+Radio buttons:
+
+○ One-Time Ingestion
+○ Continuous Synchronization
+
+Continuous sync option includes:
+small “recommended” badge.
+
+==================================================
+SECTION 4 — GOVERNANCE & SECURITY
+==================================================
+
+Card Title:
+“Governance & Data Controls”
+
+Description:
+Configure operational access governance and supplier intelligence permissions.
+
+==================================================
+SECURITY BADGES
+==================================================
+
+Display enterprise trust badges:
+
+✅ Read-Only Access
+✅ Audit Logged
+✅ Enterprise Encryption
+✅ Role-Based Access
+
+==================================================
+ACCESS CONTROL SETTINGS
+==================================================
+
+Checkboxes:
+
+☑ Sustainability Team
+☑ Procurement Team
+☑ Operations Team
+☐ External Consultants
+☐ Supplier Access
+
+==================================================
+DATA RETENTION
+==================================================
+
+Dropdown:
+- 90 Days
+- 1 Year
+- Enterprise Retention Policy
+
+==================================================
+RIGHT PANEL — SUPPLIER INTELLIGENCE PREVIEW
+==================================================
+
+This panel updates dynamically as configurations change.
+
+Title:
+“Expected Supplier Intelligence Coverage”
+
+==================================================
+LIVE METRICS CARDS
+==================================================
+
+Estimated Suppliers:
+83
+
+Operational Records:
+1,248
+
+Connected Systems:
+4
+
+Procurement Categories:
+12
+
+Potential Supplier Matches:
+146
+
+==================================================
+DATA COVERAGE VISUALIZATION
+==================================================
+
+Horizontal coverage bars:
+
+Outlook Coverage — High
+Google Sheets Coverage — Medium
+WhatsApp Coverage — Partial
+SharePoint Coverage — High
+
+==================================================
+POTENTIAL OPERATIONAL SIGNALS
+==================================================
+
+Detected signals preview:
+
+- logistics operations
+- agriculture procurement
+- energy consumption
+- packaging suppliers
+- transportation activity
+- utility usage
+
+==================================================
+MISSING DATA INDICATORS
+==================================================
+
+Warning cards:
+
+⚠ No logistics invoices detected
+⚠ Limited supplier utility records found
+⚠ Missing procurement metadata for 12 suppliers
+
+==================================================
+BOTTOM ACTION BAR
+==================================================
+
+Sticky footer action bar.
+
+LEFT:
+Back Button
+
+CENTER:
+Governance Status
+✓ Secure Configuration Ready
+
+RIGHT:
+Primary CTA Button
+
+“Start Supplier Intelligence Processing”
+
+Button should feel:
+important
+enterprise-grade
+operational
+
+==================================================
+MICRO INTERACTIONS
+==================================================
+
+Add:
+- live updating preview panel
+- animated supplier merge visualization
+- dynamic coverage recalculation
+- glowing connected system indicators
+- hover previews for operational signals
+- subtle processing pulse effects
+
+==================================================
+IMPORTANT UX PRINCIPLE
+==================================================
+
+The entire screen should communicate:
+
+“We are configuring how fragmented enterprise operational systems will be unified into centralized supplier intelligence.”
 
 NOT:
-- ESG reporting
-- dashboards
-- generic file uploads
+- onboarding form
+- settings page
+- ESG dashboard
 
-This should feel like:
-- enterprise operational intelligence
-- AI-assisted ingestion orchestration
-- supply chain intelligence infrastructure
-- sustainability data fabric
-
-The UX should feel:
-- guided
-- intelligent
-- enterprise-ready
-- operationally realistic
-- secure
-- scalable
+This is:
+- operational intelligence orchestration
+- enterprise ingestion governance
+- supplier data unification infrastructure
+- sustainability intelligence foundation
