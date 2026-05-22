@@ -1,577 +1,405 @@
-Your current screen is already very strong visually.
-What you need now is not a redesign — it’s a transition from:
+Redesign the existing “Transition Copilot” roadmap experience into a premium AI-powered sustainability execution platform for HSBC-style enterprise ESG transition management.
 
-> “AI roadmap viewer”
+IMPORTANT:
+Keep the dark futuristic aesthetic, but completely redesign the roadmap interaction model to feel like:
+- GitHub Copilot for Sustainability
+- Notion + Linear + AI Agent
+- Enterprise-grade transition mission control center
 
-to
+The current UI is too static and card-based.
+The new UI should feel:
+- intelligent
+- actionable
+- adaptive
+- execution-focused
+- AI-driven
+- enterprise premium
 
-# “AI transition execution workspace”
+==================================================
+OVERALL EXPERIENCE
+==================================================
 
-The missing piece is:
+Transform the roadmap page into:
+“AI Transition Mission Workspace”
 
-# EXECUTABLE IMPLEMENTATION FLOW
+The platform should no longer feel like:
+- a dashboard
+- a report
+- a task tracker
 
-Right now the roadmap phases are informational.
+Instead it should feel like:
+- an AI sustainability operating system
+- a live transition execution platform
+- an intelligent action orchestration engine
 
-You now need:
+The AI should appear active throughout the experience.
 
-* execution states
-* implementation progression
-* vendor orchestration
-* financing orchestration
-* simulation journeys
-* real-world action tracking
+==================================================
+LAYOUT STRUCTURE
+==================================================
 
-WITHOUT making the UI crowded.
+PAGE LAYOUT:
 
----
+LEFT SIDEBAR
+- Compact icon navigation
+- Sections:
+  - Overview
+  - Transition Copilot
+  - Execution Center
+  - Vendors
+  - Financing
+  - Knowledge Hub
+  - Evidence Vault
+  - Audits & Governance
+  - AI Recommendations
+  - Impact Simulator
+  - Reports
 
-# What You Should Add
+CENTER AREA
+Main “Transition Mission Workspace”
 
-Your current layout is actually ideal.
+RIGHT SIDE PANEL
+Persistent AI Copilot assistant panel
 
-You should NOT create new pages immediately.
+TOP HEADER
+- Company sustainability score
+- Transition readiness bar
+- AI recommendations count
+- Risk alerts
+- ESG score trend
+- Current active mission
+- AI activity pulse indicator
 
-Instead:
+==================================================
+MAIN ROADMAP REDESIGN
+==================================================
 
-# Convert each roadmap card into an expandable execution journey.
+Replace flat roadmap cards with:
+“Expandable Mission Modules”
 
----
+Each roadmap item should feel like:
+- a live operational workspace
+- intelligent execution pipeline
+- AI-guided mission
 
-# The BIG UX Change
+Each mission module contains:
 
-Currently your cards are:
+==================================================
+MISSION HEADER
+==================================================
 
-```text
-Operational Assessment
-Pilot Sustainability Program
-Infrastructure Transition
-```
-
-These are passive roadmap blocks.
-
-You should evolve them into:
-
-# EXECUTABLE TRANSITION MODULES
-
----
-
-# New Card Behavior
-
-Each card should have:
-
-```text
-Status
-Progress
-Execution CTA
-Vendor Flow
-Financing Flow
-Simulation
-```
-
----
-
-# Example Final Structure
-
----
-
-# INFRASTRUCTURE TRANSITION
-
-### Current Status
-
-```text
-Ready for execution
-```
-
-### Estimated Impact
-
-```text
-14–22% emissions reduction
-```
-
-### Estimated Cost
-
-```text
-$180K–$240K
-```
-
-### Financing Readiness
-
-```text
-HSBC Green Loan Eligible
-```
-
----
-
-# Primary CTA
-
-```text
-[ Start Transition ]
-```
-
-This is the most important button in entire product.
-
----
-
-# AFTER CLICKING "START TRANSITION"
-
-DO NOT navigate away.
-
-Open:
-
-# Right-side sliding execution workspace
-
-or
-
-# Expandable implementation panel
-
-inside same screen.
-
-This preserves context.
-
----
-
-# NEW EXECUTION PANEL
-
-The execution panel should contain:
-
-## 1. Transition Overview
-
-```text
-Selected Initiative:
-Renewable Irrigation Upgrade
-
-Expected ROI:
-3.2 years
-
-Projected Emission Reduction:
-18%
-```
-
----
-
-# 2. Execution Steps
-
-Show progressive workflow.
+- Mission title
+- AI-generated priority score
+- Emission reduction estimate
+- Cost savings estimate
+- ESG impact badge
+- Compliance impact
+- Readiness percentage
+- Status indicator
 
 Example:
-
-```text
-✓ AI feasibility assessment
-
-→ Select implementation vendor
-
-→ Simulate infrastructure upgrade
-
-→ Explore financing eligibility
-
-→ Connect with HSBC RM
-
-→ Implementation tracking
-```
-
-This creates guided execution.
-
----
-
-# 3. Vendor Ecosystem Section
-
-This becomes the first actionable implementation layer.
-
----
-
-# Vendor Cards
-
-Each vendor should contain:
-
-* company name
-* sustainability rating
-* estimated pricing
-* implementation timeline
-* HSBC compatibility
-* carbon reduction estimate
-
----
-
-# Example
-
-```text
-EcoPivot Irrigation Systems
-
-Cost Estimate:
-$120K
-
-Expected Water Reduction:
-31%
-
-Carbon Reduction:
-18%
-
-Compatible with HSBC Green Equipment Loan
-```
-
-Buttons:
-
-```text
-[ Simulate Proposal ]
-[ Request Quote ]
-```
-
----
-
-# 4. Simulation Layer (VERY IMPORTANT)
-
-This becomes your visual “wow factor”.
-
-When user clicks simulation:
-
-Open modal or side panel.
-
----
-
-# BEFORE vs AFTER SIMULATION
-
-## CURRENT STATE
-
-```text
-Diesel Irrigation
-Annual Energy Spend: $82K
-Annual Emissions: 210 tCO₂e
-```
-
-↓
-
-## PROJECTED STATE
-
-```text
-Solar Pivot Irrigation
-Annual Energy Spend: $48K
-Projected Emissions: 132 tCO₂e
-
-Reduction:
-37%
-```
-
----
-
-# Add Interactive Sliders
-
-This will look VERY impressive.
-
-Example:
-
-```text
-Solar Coverage %
-Battery Capacity
-Farm Coverage Area
-```
-
-As sliders move:
-
-* savings update
-* emissions update
-* financing estimate updates
-
-This creates:
-
-# “Transition sandbox experience”
-
-Very hackathon-winning.
-
----
-
-# 5. HSBC Financing Flow
-
-This should feel integrated but lightweight.
-
----
-
-# Add New Financing Card
-
-Inside execution panel:
-
----
-
-# HSBC Transition Financing
-
-### AI Eligibility Assessment
-
-```text
-Eligibility Confidence:
-82%
-```
-
-### Suggested Product
-
-```text
-Green Equipment Transition Loan
-```
-
-### Estimated Financing
-
-```text
-Up to 80% project coverage
-```
-
-Buttons:
-
-```text
-[ Check Readiness ]
-[ Prepare Financing Package ]
-```
-
----
-
-# 6. Readiness Workflow
-
-When clicked:
-
-AI should generate checklist.
-
----
-
-# Example
-
-```text
-Required for RM Review:
-
-✓ Transition roadmap
-✓ Vendor quotation
-✓ Emission reduction estimate
-
-Pending:
-- Utility records
-- Ownership verification
-- ESG declaration
-```
-
----
-
-# 7. Generate Financing Package
-
-This is HUGE.
-
-This becomes your bridge to HSBC.
-
-Generate downloadable:
-
-# “Transition Financing Readiness Package”
-
-Contains:
-
-* project summary
-* implementation proposal
-* carbon reduction estimate
-* vendor info
-* transition impact
-* financing request
-
----
-
-# Then Final CTA
-
-```text
-[ Connect With HSBC RM ]
-```
-
----
-
-# IMPORTANT
-
-After RM connect:
-
-DO NOT simulate actual banking workflows.
-
-Instead show:
-
-```text
-Transition package shared successfully.
-
-An HSBC sustainability financing specialist
-will contact you within 3 business days.
-```
-
-This keeps your architecture realistic.
-
----
-
-# MOST IMPORTANT UX IMPROVEMENT
-
-Currently your screen has:
-
-# AI Conversation
-
-*
-
-# Roadmap
-
-Now you need:
-
-# STATEFUL EXECUTION
-
-Meaning:
-
-The platform remembers:
-
-* vendor selected
-* financing explored
-* quote requested
-* readiness completed
-
-So roadmap cards evolve.
-
----
-
-# Example State Changes
-
-## BEFORE
-
-```text
-Infrastructure Transition
-```
-
----
-
-## AFTER STARTING
-
-```text
-Infrastructure Transition
-IN PROGRESS
-
-Vendor Selected:
-EcoPivot Systems
-
-Simulation Completed:
-18% reduction
-
-Financing Status:
-RM Review Pending
-```
-
-THIS makes your platform feel alive.
-
----
-
-# Exact Prompt For Your UI Builder / Cursor / Lovable
-
-Use this directly:
-
----
-
-# PROMPT
-
-Design an advanced AI-powered sustainability transition execution workspace for HSBC suppliers.
-
-Keep the existing dark enterprise UI aesthetic and current split layout:
-
-* left panel = AI copilot conversation
-* right panel = transition action workspace
-
-Transform the roadmap cards into executable transition modules.
-
-Each roadmap module should now include:
-
-* implementation status
-* emissions impact
-* estimated cost
-* financing readiness
-* execution progress
-* “Start Transition” CTA
-
-When “Start Transition” is clicked:
-open an expandable execution workspace within the same screen.
-
-The execution workspace should contain:
-
-1. Transition Overview
-
-* expected ROI
-* projected emissions reduction
-* implementation timeline
-* implementation complexity
-
-2. Guided Execution Steps
-   Display a progressive workflow timeline:
-
-* feasibility assessment
-* vendor selection
-* simulation
-* financing readiness
-* RM connect
-* implementation tracking
-
-3. Vendor Ecosystem Section
-   Display vendor cards with:
-
-* vendor name
-* sustainability rating
-* implementation estimate
-* carbon reduction estimate
-* financing compatibility
-* implementation timeline
-
-Each vendor card should have:
-
-* “Simulate Proposal”
-* “Request Quote”
-
-4. Simulation Experience
-   Create an interactive sustainability simulation panel showing:
-
-* before vs after emissions
-* projected cost savings
-* projected ROI
-* energy reduction
-* emissions reduction
-
-Add interactive sliders:
-
-* solar coverage
-* implementation scale
-* energy transition level
-
-Simulation updates in realtime.
-
-5. HSBC Green Financing Section
-   Show:
-
-* financing eligibility score
-* recommended HSBC green product
-* estimated financing coverage
-* financing readiness checklist
-
-Add CTA buttons:
-
-* “Check Readiness”
-* “Generate Financing Package”
-* “Connect With HSBC RM”
-
-6. Transition State Tracking
-   Roadmap modules should evolve dynamically:
-
-* Not Started
-* In Progress
-* Vendor Selected
-* Financing Under Review
-* Implementation Active
-* Completed
-
-7. Enterprise UX Style
-   Maintain:
-
-* dark HSBC enterprise aesthetic
-* glassmorphism cards
-* glowing sustainability indicators
-* AI orchestration feel
-* modern enterprise SaaS experience
-
-Focus heavily on:
-
-* execution orchestration
-* guided implementation
-* AI-assisted transition
-* actionable sustainability workflows
-
-Avoid generic dashboard design.
-Make it feel like:
-“GitHub Copilot for Sustainability Transition Execution.”
+“Precision Irrigation Transition”
+
+Badges:
+- High Impact
+- Subsidy Eligible
+- Loan Eligible
+- Auditor Review Pending
+
+==================================================
+MISSION TIMELINE VISUAL
+==================================================
+
+Replace simple progress bars with:
+- animated workflow timeline
+- connected execution stages
+- glowing pipeline indicators
+
+Stages:
+1. Assessment
+2. Data Collection
+3. Vendor Match
+4. Financing
+5. Implementation
+6. Audit
+7. Validation
+8. ESG Reporting
+
+Each stage should:
+- glow when active
+- show AI progress
+- contain completion indicators
+
+==================================================
+MISSION EXPANSION EXPERIENCE
+==================================================
+
+When user clicks a mission:
+expand into a full “Mission Workspace”
+
+This workspace contains TABS:
+
+--------------------------------------------------
+TAB 1 — EXECUTION CENTER
+--------------------------------------------------
+
+Show actionable execution steps.
+
+Each step includes:
+- task title
+- AI automation status
+- assigned team/person
+- upload actions
+- AI extraction progress
+- completion state
+- approval state
+
+Example tasks:
+- Upload invoices
+- Verify emissions baseline
+- Compare vendors
+- Apply for financing
+- Submit for audit
+
+Each task should feel interactive and operational.
+
+Include:
+- drag/drop uploads
+- AI processing loaders
+- extraction previews
+- auto-generated insights
+
+--------------------------------------------------
+TAB 2 — KNOWLEDGE HUB
+--------------------------------------------------
+
+This section teaches the supplier HOW to transition.
+
+Include:
+- AI-generated sustainability explainers
+- industry benchmarks
+- carbon reduction insights
+- regulation summaries
+- short learning cards
+- government subsidy guidance
+- “why this matters” section
+
+Design:
+- elegant knowledge cards
+- expandable insights
+- infographic-style layout
+- interactive learning blocks
+
+Examples:
+“How precision irrigation reduces emissions”
+“CBAM compliance implications”
+“Expected ROI over 3 years”
+
+--------------------------------------------------
+TAB 3 — VENDOR ECOSYSTEM
+--------------------------------------------------
+
+Modern vendor comparison experience.
+
+Features:
+- verified sustainability vendors
+- AI-recommended vendors
+- vendor ESG scores
+- implementation timelines
+- pricing estimates
+- financing compatibility
+- side-by-side comparison
+
+Each vendor card includes:
+- trust badge
+- implementation speed
+- carbon impact
+- estimated savings
+- financing eligibility
+
+Add:
+“AI Recommended” labels.
+
+--------------------------------------------------
+TAB 4 — GREEN FINANCING
+--------------------------------------------------
+
+Turn financing into an intelligent advisory experience.
+
+Show:
+- eligible HSBC green products
+- dynamic loan eligibility
+- estimated approval likelihood
+- projected ROI
+- repayment simulations
+- subsidy stacking opportunities
+
+Include:
+- financing recommendation engine
+- visual funding breakdown
+- loan vs lease comparison
+- impact projections
+
+Design:
+- modern fintech aesthetic
+- premium banking UI
+- glowing financial insights
+
+--------------------------------------------------
+TAB 5 — GOVERNANCE & AUDIT
+--------------------------------------------------
+
+Enterprise audit workflow.
+
+Include:
+- uploaded evidence tracking
+- AI confidence scores
+- auditor approval queue
+- validation checkpoints
+- compliance verification
+- immutable activity timeline
+
+Statuses:
+- Verified
+- Pending Review
+- Flagged
+- Approved
+
+Add:
+human-in-loop audit interactions.
+
+--------------------------------------------------
+TAB 6 — IMPACT SIMULATOR
+--------------------------------------------------
+
+Interactive sustainability simulation engine.
+
+User can modify:
+- vendors
+- financing
+- technologies
+- timelines
+- implementation scale
+
+AI recalculates in real time:
+- emissions reduction
+- ESG score
+- ROI
+- energy savings
+- loan eligibility
+- compliance readiness
+
+Visualization:
+- animated graphs
+- live impact meters
+- scenario comparison
+
+==================================================
+AI COPILOT PANEL (RIGHT SIDE)
+==================================================
+
+Persistent AI assistant visible throughout.
+
+The assistant should feel:
+- proactive
+- intelligent
+- conversational
+- contextual
+
+Features:
+- suggested next actions
+- AI recommendations
+- sustainability guidance
+- financing advice
+- compliance explanations
+
+Example prompts:
+- “Show cheaper alternatives”
+- “What subsidy programs apply?”
+- “Explain CBAM impact”
+- “Can I avoid taking a loan?”
+- “Recommend lower-emission vendors”
+
+AI should:
+- reference uploaded documents
+- analyze mission progress
+- generate dynamic insights
+
+==================================================
+NEW DESIGN STYLE
+==================================================
+
+Visual Style:
+- futuristic enterprise SaaS
+- dark luxury UI
+- AI operating system aesthetic
+- glassmorphism
+- neon sustainability accents
+- premium HSBC-grade product feel
+
+Colors:
+- dark charcoal background
+- emerald green accents
+- cyan AI highlights
+- amber warning indicators
+- soft glowing borders
+
+Use:
+- depth
+- layered cards
+- intelligent motion
+- subtle animations
+- glowing execution flows
+
+==================================================
+MICRO INTERACTIONS
+==================================================
+
+Include:
+- animated AI thinking states
+- live data pulse effects
+- smooth mission expansion
+- hover intelligence previews
+- floating recommendation cards
+- dynamic ESG score transitions
+
+==================================================
+KEY PRODUCT DIFFERENTIATOR
+==================================================
+
+The UI must communicate:
+
+“This is not an ESG dashboard.”
+
+It is:
+- an AI-guided transition execution platform
+- a sustainability operating system
+- a real implementation copilot
+- an intelligent orchestration engine
+
+The user should feel:
+“the platform is actively helping me transition.”
+
+==================================================
+IMPORTANT
+==================================================
+
+DO NOT make this feel like:
+- Power BI
+- traditional admin dashboard
+- static ESG reporting tool
+
+INSTEAD:
+make it feel like:
+- AI-native
+- execution-driven
+- workflow-centric
+- enterprise operational intelligence platform
+
+Every section should encourage:
+- action
+- implementation
+- learning
+- verification
+- financing
+- measurable impact
