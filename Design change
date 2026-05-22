@@ -1,503 +1,567 @@
-Design “Step 6 — Scope 3 Intelligence Mapping” for HSBC Sustainable Transition Copilot.
+Redesign “Step 6” of HSBC Sustainable Transition Copilot into a more business-oriented and explainable sustainability intelligence experience.
 
 IMPORTANT:
-This screen comes AFTER:
-- supplier data ingestion
-- supplier identity resolution
-- operational intelligence consolidation
+This screen should NO LONGER feel like:
+- technical ESG software
+- carbon accounting tooling
+- GHG taxonomy dashboard
 
-The platform now has:
-- unified supplier profiles
-- operational activities
-- procurement records
-- logistics data
-- utility records
-- operational keywords
-- supplier operational categories
+Instead, it should feel like:
+- supplier sustainability prioritization system
+- operational sustainability intelligence platform
+- enterprise supplier risk discovery workspace
+- transition opportunity identification engine
 
-THIS SCREEN SHOULD NOT:
-- calculate exact carbon emissions
-- pretend to provide perfect ESG accuracy
-- behave like a carbon accounting platform
-- overwhelm users with technical GHG calculations
+The UI should answer:
 
-Instead, this screen should:
-- map operational intelligence into Scope 3 categories
-- identify probable sustainability hotspots
-- explain WHY suppliers are relevant to Scope 3
-- establish operational sustainability visibility
-- generate sustainability intelligence foundation
+“Which suppliers need sustainability engagement, why, and what opportunities exist?”
 
-The core message should be:
+Scope 3 should remain important,
+BUT as supporting context — not the primary focus.
 
-“We mapped supplier operational activities into Scope 3 sustainability intelligence categories.”
+==================================================
+OVERALL UX FLOW
+==================================================
+
+This step now has TWO PHASES:
+
+--------------------------------------------------
+PHASE 1 — LIVE SUSTAINABILITY INTELLIGENCE PROCESSING
+--------------------------------------------------
+
+Show:
+- operational signal processing
+- supplier sustainability mapping
+- hotspot detection
+- Scope 3 categorization
+- supplier prioritization
+- transition opportunity generation
+
+This should feel:
+- alive
+- operational
+- continuously discovering intelligence
+
+--------------------------------------------------
+PHASE 2 — SUSTAINABILITY PRIORITIZATION OUTPUT
+--------------------------------------------------
+
+After processing completes:
+show:
+- sustainability hotspots
+- priority supplier clusters
+- supplier sustainability relevance
+- transition opportunities
+- mapped Scope 3 areas
+
+The end result should feel:
+actionable,
+business-friendly,
+and easy to understand.
 
 ==================================================
 OVERALL DESIGN STYLE
 ==================================================
 
 Style:
-- enterprise sustainability intelligence platform
-- operational mapping interface
-- premium modern SaaS
-- structured intelligence workspace
-- highly visual operational categorization system
+- enterprise sustainability intelligence workspace
+- modern operational intelligence SaaS
+- premium HSBC interface
+- explainable AI orchestration platform
 
 Design Inspiration:
-- Palantir operational mapping
-- modern supply chain intelligence platforms
-- procurement intelligence systems
-- enterprise risk mapping dashboards
+- Palantir Foundry
+- Scale AI
+- enterprise operational intelligence systems
+- procurement intelligence platforms
 
 Color Palette:
 - white/light gray background
-- dark typography
-- HSBC red highlights
+- HSBC red primary actions
 - emerald sustainability indicators
-- amber warning indicators
-- blue intelligence accents
+- amber risk indicators
+- blue intelligence highlights
 
 Avoid:
-- heavy ESG charts
-- overwhelming emissions graphs
-- carbon accounting spreadsheets
-- complex scientific dashboards
+- technical carbon dashboards
+- scientific ESG visualizations
+- complex charts
+- excessive metrics overload
 
-This screen should feel:
-- intelligent
+This should feel:
 - operational
 - explainable
-- trustworthy
-- enterprise-grade
-- sustainability-focused
+- business-oriented
+- intelligent
+- actionable
+
+==================================================
+PHASE 1 — LIVE PROCESSING SCREEN
+==================================================
 
 ==================================================
 PAGE HEADER
 ==================================================
 
-Large Title:
+Large title:
 
-“Scope 3 Intelligence Mapping”
+“Generating Supplier Sustainability Intelligence”
 
 Subheading:
 
-Supplier operational activities have been mapped into Scope 3 sustainability categories based on detected procurement, logistics, utility, and operational signals.
+Operational records, procurement activity, and supplier behaviors are being analyzed to identify sustainability hotspots and transition opportunities.
 
 ==================================================
-TOP SUMMARY BAR
+TOP LIVE STATUS BAR
 ==================================================
 
---------------------------------------------------
+Live counters updating dynamically:
 
-Scope 3 Categories Identified:
-6
+Operational Records Processed:
+1,248
 
-Suppliers Mapped:
+Suppliers Analyzed:
 83
 
-Operational Signals Classified:
+Sustainability Signals Identified:
 96
 
-High-Impact Supplier Groups:
-14
-
-Potential Sustainability Hotspots:
+Potential Hotspots Detected:
 22
 
---------------------------------------------------
+Transition Opportunities Generated:
+22
 
-Status Indicator:
-✓ Scope 3 Operational Mapping Complete
+Live Status:
+● Processing Active
 
 ==================================================
 LAYOUT STRUCTURE
 ==================================================
 
-3-column intelligence layout.
+3-column operational layout.
 
 --------------------------------------------------
-LEFT PANEL — SCOPE 3 CATEGORIES
+LEFT PANEL — PROCESSING PIPELINE
 --------------------------------------------------
 
 Title:
-“Detected Scope 3 Areas”
+“Operational Sustainability Processing”
 
-Show categorized Scope 3 cards.
+Show animated workflow stages.
 
 ==================================================
-CATEGORY CARDS
+PIPELINE STEPS
 ==================================================
 
---------------------------------------------------
-CATEGORY 1
---------------------------------------------------
+✓ Supplier Records Consolidated
 
+✓ Operational Activities Classified
+
+● Sustainability Signals Detected
+
+● Scope 3 Areas Mapped
+
+○ Supplier Priorities Generated
+
+○ Transition Opportunities Created
+
+Animated connector lines between steps.
+
+==================================================
+CENTER PANEL — LIVE SUSTAINABILITY DISCOVERY FEED
+==================================================
+
+THIS IS THE MAIN WOW SECTION.
+
+The feed should continuously update in real time.
+
+==================================================
+LIVE DISCOVERY EVENTS
+==================================================
+
+[System]
+Fertilizer procurement pattern detected
+
+[System]
+Agriculture supplier cluster identified
+
+[System]
+Potential irrigation energy dependency identified
+
+[System]
+Operational activities mapped to:
 Purchased Goods & Services
 
-Detected Signals:
-- fertilizer procurement
-- packaging materials
-- raw material sourcing
+[System]
+Transportation fuel operations detected
 
-Mapped Suppliers:
-32
+[System]
+Diesel logistics dependency cluster identified
 
-Impact Level:
-High
+[System]
+Supplier sustainability hotspot generated:
+Logistics Fuel Dependency
 
---------------------------------------------------
-CATEGORY 4
---------------------------------------------------
-
-Upstream Transportation & Distribution
-
-Detected Signals:
-- diesel logistics invoices
-- shipment routing
-- fleet fuel operations
-
-Mapped Suppliers:
-18
-
-Impact Level:
-High
-
---------------------------------------------------
-CATEGORY 3
---------------------------------------------------
-
-Fuel & Energy Related Activities
-
-Detected Signals:
-- utility consumption
-- electricity bills
-- diesel generator usage
-
-Mapped Suppliers:
-11
-
-Impact Level:
-Medium
-
---------------------------------------------------
-CATEGORY 5
---------------------------------------------------
-
-Waste Generated In Operations
-
-Detected Signals:
-- packaging disposal
-- operational waste handling
-
-Mapped Suppliers:
-6
-
-Impact Level:
-Medium
+[System]
+Transition opportunity generated:
+EV logistics exploration
 
 ==================================================
-CENTER PANEL — OPERATIONAL → SCOPE 3 MAPPING
+SIGNAL EXTRACTION VISUALIZATION
 ==================================================
 
-THIS IS THE MAIN “WOW” SECTION.
-
-Title:
-“Operational Signal Intelligence Mapping”
-
-Subheading:
-
-Operational records and procurement activities are being classified into sustainability-relevant Scope 3 categories.
+Show operational mapping cards continuously appearing.
 
 ==================================================
-MAPPING PIPELINE VISUALIZATION
+EXAMPLE CARD
 ==================================================
-
-The screen should visually show:
-
-RAW OPERATIONAL DATA
-↓
-KEYWORD EXTRACTION
-↓
-OPERATIONAL CLASSIFICATION
-↓
-SCOPE 3 CATEGORY MAPPING
-↓
-SUSTAINABILITY HOTSPOT DETECTION
-
-==================================================
-LIVE MAPPING CARDS
-==================================================
-
---------------------------------------------------
-EXAMPLE CARD 1
---------------------------------------------------
 
 SOURCE RECORD:
 Bulk Nitrogen Fertilizer Purchase
 
-Detected Keywords:
+EXTRACTED SIGNALS:
 fertilizer
 nitrogen
 crop treatment
 irrigation
 
-Operational Domain:
+DETECTED OPERATIONAL AREA:
 Agriculture Procurement
 
-Mapped Scope 3 Category:
+POTENTIAL SUSTAINABILITY CONCERN:
+High fertilizer dependency
+
+MAPPED SCOPE 3 AREA:
 Purchased Goods & Services
 
-Potential Sustainability Insight:
-Possible fertilizer emissions hotspot
+POTENTIAL TRANSITION OPPORTUNITY:
+Precision farming optimization
 
-Affected Suppliers:
-Green Valley Potatoes
-
---------------------------------------------------
-EXAMPLE CARD 2
---------------------------------------------------
+==================================================
+ANOTHER EXAMPLE CARD
+==================================================
 
 SOURCE RECORD:
 Fleet Fuel Logistics Invoice
 
-Detected Keywords:
+DETECTED SIGNALS:
 diesel
-shipment
-cargo route
+shipment routing
 fleet fuel
 
-Operational Domain:
+OPERATIONAL AREA:
 Transportation Operations
 
-Mapped Scope 3 Category:
+POTENTIAL SUSTAINABILITY CONCERN:
+Diesel-heavy logistics activity
+
+MAPPED SCOPE 3 AREA:
 Transportation & Distribution
 
-Potential Sustainability Insight:
-Diesel-heavy logistics dependency
-
-Affected Suppliers:
-EcoTrans Logistics
-
---------------------------------------------------
-EXAMPLE CARD 3
---------------------------------------------------
-
-SOURCE RECORD:
-Cold Storage Utility Bill
-
-Detected Keywords:
-electricity
-refrigeration
-cold storage
-energy usage
-
-Operational Domain:
-Utility Consumption
-
-Mapped Scope 3 Category:
-Fuel & Energy Related Activities
-
-Potential Sustainability Insight:
-High refrigeration energy dependency
+POTENTIAL TRANSITION OPPORTUNITY:
+EV fleet transition exploration
 
 ==================================================
-SUSTAINABILITY HOTSPOT DETECTION
+RIGHT PANEL — LIVE INTELLIGENCE SUMMARY
 ==================================================
-
-Separate intelligence section.
 
 Title:
-“Potential Sustainability Hotspots”
-
-Display hotspot cards.
+“Sustainability Intelligence Overview”
 
 ==================================================
-HOTSPOT CARD EXAMPLE
+LIVE INSIGHTS
 ==================================================
 
-Agriculture Procurement Risk Cluster
-
-Detected Across:
-- fertilizer invoices
-- irrigation operations
-- agriculture suppliers
-
-Associated Suppliers:
+High Priority Supplier Groups:
 14
 
-Potential Concerns:
-- fertilizer dependency
-- irrigation energy usage
-- diesel pump operations
-
-Priority:
-High
-
---------------------------------------------------
-
-Transportation Emissions Cluster
-
-Detected Across:
-- logistics invoices
-- shipment routing
-- fuel procurement
-
-Associated Suppliers:
-8
-
-Potential Concerns:
-- diesel fleet dependency
-- high transportation activity
-
-Priority:
-High
-
-==================================================
-SUPPLIER IMPACT MAPPING
-==================================================
-
-Title:
-“Supplier Sustainability Relevance”
-
-Show supplier intelligence cards mapped to Scope 3 areas.
-
-==================================================
-SUPPLIER CARD EXAMPLE
-==================================================
-
-Green Valley Potatoes
-
-Mapped Scope 3 Areas:
-- Purchased Goods & Services
-- Fuel & Energy Related Activities
-
-Detected Operational Signals:
-- fertilizer procurement
-- irrigation operations
-
-Potential Sustainability Areas:
-- fertilizer intensity
-- energy consumption
-
-Impact Relevance:
-High
-
-Button:
-[ View Transition Intelligence ]
-
---------------------------------------------------
-
-EcoTrans Logistics
-
-Mapped Scope 3 Areas:
-- Transportation & Distribution
-
-Detected Signals:
-- diesel logistics
-- shipment routing
-
-Potential Sustainability Areas:
-- logistics fuel usage
-
-==================================================
-RIGHT PANEL — SUSTAINABILITY INTELLIGENCE SUMMARY
-==================================================
-
-Title:
-“Operational Sustainability Insights”
-
-==================================================
-LIVE METRICS
-==================================================
-
-High-Impact Suppliers:
-14
-
-Operational Domains Detected:
-12
-
-Potential Hotspots:
+Operational Hotspots:
 22
 
-Supplier Coverage:
-78%
+Mapped Scope 3 Areas:
+6
+
+Transition Opportunities:
+22
 
 ==================================================
-MOST DETECTED SIGNALS
+MOST DETECTED OPERATIONAL SIGNALS
 ==================================================
 
 Display operational keyword clusters.
 
 Examples:
 - fertilizer dependency
-- diesel transportation
-- utility intensity
+- diesel logistics
 - refrigeration operations
+- utility intensity
 - packaging procurement
-- energy consumption
+- transportation fuel usage
 
 ==================================================
-SCOPE 3 DISTRIBUTION
+LIVE PRIORITY CLUSTERS
 ==================================================
 
-Instead of complicated charts:
-use categorized visual blocks.
+Agriculture Procurement Cluster
+High Priority
 
-Example:
+Transportation Fuel Cluster
+High Priority
 
-Purchased Goods & Services
-██████████
+Cold Storage Energy Cluster
+Medium Priority
 
-Transportation & Distribution
-███████
-
-Fuel & Energy Activities
-█████
-
-Waste Operations
-███
-
-==================================================
-EXPLAINABILITY PANEL
-==================================================
-
-VERY IMPORTANT FOR TRUST.
-
-Title:
-“How Scope 3 Mapping Works”
-
-Show explainable operational logic.
-
-Example:
-
-Diesel logistics invoices
-↓
-Transportation Operations
-↓
-Mapped to:
-Upstream Transportation & Distribution
-
-Fertilizer procurement
-↓
-Agriculture Procurement
-↓
-Mapped to:
-Purchased Goods & Services
-
-This makes the system feel:
-- explainable
-- trustworthy
-- realistic
+Packaging Waste Cluster
+Medium Priority
 
 ==================================================
 BOTTOM ACTION BAR
 ==================================================
 
-Sticky footer action bar.
+Sticky footer.
 
 LEFT:
-Mapping Status
-✓ Scope 3 Intelligence Ready
+Processing Status
+● Generating Sustainability Intelligence
+
+RIGHT:
+Animated progress indicator:
+83% Complete
+
+==================================================
+PROCESS COMPLETION TRANSITION
+==================================================
+
+IMPORTANT.
+
+When processing completes:
+show smooth transition animation.
+
+Example:
+- live feed slows down
+- processing indicators turn green
+- intelligence cards organize automatically
+- supplier clusters appear
+- transition opportunity cards expand
+
+Then transition into:
+PHASE 2 — FINAL OUTPUT SCREEN
+
+==================================================
+PHASE 2 — SUPPLIER SUSTAINABILITY PRIORITIZATION
+==================================================
+
+==================================================
+PAGE HEADER
+==================================================
+
+Large title:
+
+“Supplier Sustainability Intelligence”
+
+Subheading:
+
+Supplier operational activities have been analyzed to identify sustainability hotspots, Scope 3 relevance, and transition opportunities.
+
+==================================================
+TOP SUMMARY BAR
+==================================================
+
+Priority Supplier Groups:
+14
+
+Transition Opportunities:
+22
+
+Mapped Scope 3 Areas:
+6
+
+High-Impact Suppliers:
+14
+
+Supplier Coverage:
+78%
+
+==================================================
+LAYOUT STRUCTURE
+==================================================
+
+--------------------------------------------------
+LEFT PANEL — SUSTAINABILITY HOTSPOTS
+--------------------------------------------------
+
+Title:
+“Operational Sustainability Hotspots”
+
+IMPORTANT:
+This replaces “Detected Scope 3 Areas” as the PRIMARY focus.
+
+==================================================
+HOTSPOT CARDS
+==================================================
+
+--------------------------------------------------
+AGRICULTURE PROCUREMENT RISK
+--------------------------------------------------
+
+Detected Across:
+- fertilizer invoices
+- irrigation operations
+- agriculture suppliers
+
+Potential Concerns:
+- fertilizer dependency
+- irrigation energy usage
+
+Mapped Scope 3 Area:
+Purchased Goods & Services
+
+Affected Suppliers:
+32
+
+Priority:
+High
+
+--------------------------------------------------
+TRANSPORTATION FUEL DEPENDENCY
+--------------------------------------------------
+
+Detected Across:
+- logistics invoices
+- shipment routing
+- fuel procurement
+
+Potential Concerns:
+- diesel fleet dependency
+- transportation intensity
+
+Mapped Scope 3 Area:
+Transportation & Distribution
+
+Affected Suppliers:
+18
+
+Priority:
+High
+
+--------------------------------------------------
+REFRIGERATION ENERGY CLUSTER
+--------------------------------------------------
+
+Detected Across:
+- cold storage bills
+- refrigeration operations
+
+Potential Concerns:
+- refrigeration energy intensity
+- utility dependency
+
+Mapped Scope 3 Area:
+Fuel & Energy Related Activities
+
+==================================================
+CENTER PANEL — PRIORITY SUPPLIER INTELLIGENCE
+==================================================
+
+THIS IS NOW THE MAIN BUSINESS VIEW.
+
+==================================================
+SUPPLIER INTELLIGENCE CARDS
+==================================================
+
+--------------------------------------------------
+GREEN VALLEY POTATOES
+--------------------------------------------------
+
+Supplier Type:
+Agriculture Procurement
+
+Priority:
+High
+
+Mapped Scope 3 Areas:
+- Purchased Goods & Services
+- Fuel & Energy Activities
+
+Detected Operational Signals:
+- fertilizer procurement
+- irrigation operations
+
+Potential Sustainability Concerns:
+- fertilizer intensity
+- energy consumption
+
+Potential Transition Opportunities:
+- precision farming optimization
+- solar irrigation exploration
+
+Button:
+[ View Transition Intelligence ]
+
+--------------------------------------------------
+ECOTRANS LOGISTICS
+--------------------------------------------------
+
+Supplier Type:
+Transportation & Logistics
+
+Priority:
+High
+
+Detected Signals:
+- diesel logistics
+- shipment routing
+
+Potential Sustainability Concerns:
+- logistics fuel usage
+
+Potential Opportunities:
+- EV fleet exploration
+- route optimization
+
+==================================================
+RIGHT PANEL — EXPLAINABILITY & MAPPING
+==================================================
+
+Title:
+“How Sustainability Mapping Works”
+
+Show explainable operational mapping logic.
+
+==================================================
+EXPLAINABILITY FLOW
+==================================================
+
+Diesel logistics invoices
+↓
+Transportation Operations
+↓
+Mapped Scope 3 Area:
+Transportation & Distribution
+↓
+Potential Concern:
+Logistics fuel dependency
+
+--------------------------------------------------
+
+Fertilizer procurement
+↓
+Agriculture Procurement
+↓
+Mapped Scope 3 Area:
+Purchased Goods & Services
+↓
+Potential Concern:
+Fertilizer intensity
+
+==================================================
+BOTTOM ACTION BAR
+==================================================
+
+LEFT:
+Intelligence Status
+✓ Sustainability Intelligence Ready
 
 CENTER:
 Potential Transition Opportunities
@@ -508,45 +572,45 @@ Primary CTA:
 “Generate Transition Recommendations”
 
 Secondary CTA:
-“Review Scope 3 Mapping”
+“Review Supplier Priorities”
 
 ==================================================
 MICRO INTERACTIONS
 ==================================================
 
 Add:
-- flowing operational mapping animations
-- animated keyword chips
-- dynamic Scope 3 category highlighting
-- expanding supplier impact cards
+- animated operational flows
+- floating keyword chips
+- live discovery pulses
+- supplier cluster animations
 - hotspot pulse indicators
-- operational mapping transitions
-- hover previews for mapped signals
-- animated intelligence linking
+- expanding intelligence cards
+- progressive transition generation
+- animated priority scoring
 
 ==================================================
 IMPORTANT UX PRINCIPLE
 ==================================================
 
-The screen should communicate:
+The experience should communicate:
 
-“We translated fragmented supplier operational activity into sustainability-relevant Scope 3 intelligence.”
+“We transformed fragmented supplier operational records into actionable sustainability intelligence and transition priorities.”
 
 NOT:
-- exact emissions accounting
-- fake AI carbon precision
-- generic ESG dashboard
+- ESG reporting software
+- carbon accounting dashboards
+- generic Scope 3 mapping tools
 
 This is:
-- operational sustainability intelligence
-- explainable Scope 3 mapping
-- supplier sustainability categorization
-- enterprise transition visibility infrastructure
+- enterprise supplier sustainability intelligence
+- operational sustainability prioritization
+- transition opportunity discovery
+- explainable Scope 3 operational mapping
 
 The UX should feel:
-- operationally intelligent
+- actionable
 - explainable
-- trustworthy
+- operationally intelligent
+- business-oriented
 - enterprise realistic
-- sustainability-focused
-- highly structured
+- highly understandable
