@@ -1,70 +1,68 @@
-Design “Step 4 — Live Supplier Intelligence Processing” for HSBC Sustainable Transition Copilot.
+Design “Step 5 — Unified Supplier Intelligence Workspace” for HSBC Sustainable Transition Copilot.
 
 IMPORTANT:
 This screen comes AFTER:
 - enterprise systems are connected
-- ingestion scope is configured
-- governance permissions are set
+- operational data ingestion is completed
+- live processing pipelines finish
+- supplier records are detected and resolved
 
-This is the PRIMARY “wow factor” screen of the platform.
+This screen is NOT:
+- a dashboard
+- a normalization admin panel
+- a technical data engineering screen
+- a Scope 3 analytics page
 
-The purpose of this screen is to visually demonstrate:
+This screen represents:
+“Fragmented operational records transformed into unified supplier operational intelligence.”
 
-“How fragmented enterprise operational records are transformed into unified supplier intelligence.”
+The purpose of this page is to:
+- consolidate fragmented supplier records
+- unify supplier operational data
+- build centralized supplier profiles
+- establish operational intelligence foundation
+- prepare for Scope 3 mapping and transition recommendations
 
-This is NOT:
-- an ESG dashboard
-- a static loading screen
-- a fake AI analytics page
-- a carbon calculator
-
-This screen should feel like:
-- live enterprise operational intelligence
-- real-time ingestion orchestration
-- supplier discovery engine
-- operational signal extraction pipeline
-
-The user should feel:
-“The platform is actively discovering and understanding supplier operational behavior.”
+This screen should communicate:
+“We reconstructed your supplier ecosystem from disconnected enterprise systems.”
 
 ==================================================
 OVERALL DESIGN STYLE
 ==================================================
 
 Style:
-- modern enterprise intelligence platform
-- operational AI orchestration interface
-- premium HSBC SaaS product
-- live processing system
-- clean but highly dynamic
+- enterprise operational intelligence workspace
+- premium modern SaaS
+- clean, intelligent, operational UI
+- supplier ecosystem command center
 
 Design Inspiration:
 - Palantir Foundry
-- Scale AI operations interfaces
-- Datadog live pipelines
-- modern observability platforms
-- enterprise orchestration systems
+- modern procurement intelligence systems
+- Scale AI operational dashboards
+- enterprise entity intelligence platforms
 
 Color Palette:
-- light background
+- white/light gray background
 - dark typography
-- HSBC red highlights
-- emerald operational signals
-- blue processing indicators
-- subtle animated flows
+- HSBC red primary actions
+- subtle emerald operational indicators
+- blue intelligence highlights
 
-DO NOT:
-- use cluttered dashboards
-- use too many charts
-- overload with graphs
-- use fake futuristic AI visuals
+Avoid:
+- cluttered ESG dashboards
+- carbon charts
+- analytics overload
+- traditional admin tables
+- excessive graphs
 
 This should feel:
-- operational
-- believable
-- enterprise-grade
-- data-centric
-- continuously active
+- operationally intelligent
+- enterprise realistic
+- structured
+- centralized
+- trustworthy
+- scalable
 
 ==================================================
 PAGE HEADER
@@ -72,375 +70,359 @@ PAGE HEADER
 
 Large title:
 
-“Live Supplier Intelligence Processing”
+“Unified Supplier Intelligence Workspace”
 
 Subheading:
 
-Operational records are being ingested, normalized, and mapped into unified supplier intelligence profiles.
+Operational records across connected enterprise systems have been consolidated into centralized supplier intelligence profiles.
 
-TOP STATUS BAR:
---------------------------------------------------
+==================================================
+TOP STATUS SUMMARY BAR
+==================================================
 
-Connected Systems: 4
-Operational Records: 1,248
-Suppliers Identified: 83
-Signals Detected: 96
+Display operational metrics cards.
 
 --------------------------------------------------
 
-Live processing pulse indicator:
-● Live Ingestion Active
+Suppliers Unified:
+83
+
+Operational Records Linked:
+1,248
+
+Duplicate Suppliers Resolved:
+41
+
+Connected Systems:
+4
+
+Operational Categories Identified:
+12
+
+Data Completeness:
+78%
+
+--------------------------------------------------
+
+Status Indicator:
+✓ Supplier Intelligence Foundation Ready
 
 ==================================================
 LAYOUT STRUCTURE
 ==================================================
 
-3-column enterprise intelligence layout.
+3-column enterprise layout.
 
 --------------------------------------------------
-LEFT PANEL — ACTIVE ENTERPRISE SOURCES
+LEFT PANEL — SUPPLIER FILTERS
 --------------------------------------------------
 
 Title:
-“Connected Operational Sources”
-
-This panel continuously updates in real time.
+“Supplier Intelligence Filters”
 
 ==================================================
-SOURCE CARDS
+FILTER GROUPS
 ==================================================
 
-Each source card contains:
-
-- source icon
-- connection status
-- processing progress
-- operational activity
-- records discovered
-- live sync state
-
 --------------------------------------------------
-OUTLOOK CARD
+SUPPLIER TYPE
 --------------------------------------------------
 
-✓ Connected
-
-324 procurement attachments scanned
-
-Current Activity:
-Scanning procurement invoices...
-
-Progress Bar:
-████████░░ 82%
-
-Detected:
-- invoices
-- supplier communication
-- logistics attachments
+☑ Agriculture
+☑ Logistics
+☑ Packaging
+☑ Manufacturing
+☑ Retail Operations
+☑ Utility Providers
 
 --------------------------------------------------
-GOOGLE SHEETS CARD
+DATA COMPLETENESS
 --------------------------------------------------
 
-✓ Connected
-
-112 procurement rows parsed
-
-Current Activity:
-Matching supplier transactions...
-
-Detected:
-- supplier lists
-- procurement tracking
-- cost records
+☑ High Coverage
+☑ Medium Coverage
+☑ Missing Operational Records
 
 --------------------------------------------------
-WHATSAPP BUSINESS CARD
+CONNECTED SOURCES
 --------------------------------------------------
 
-✓ Connected
-
-267 invoice images processed
-
-Current Activity:
-OCR extraction in progress...
-
-Detected:
-- invoice photos
-- shipment confirmations
-- operational updates
+☑ Outlook
+☑ Google Sheets
+☑ SharePoint
+☑ WhatsApp Business
+☑ Google Drive
 
 --------------------------------------------------
-SHAREPOINT CARD
+OPERATIONAL DOMAINS
 --------------------------------------------------
 
-✓ Connected
+☑ Procurement
+☑ Logistics
+☑ Utility Consumption
+☑ Fuel Operations
+☑ Packaging
+☑ Transportation
+☑ Refrigeration
+☑ Agriculture Procurement
 
-156 operational documents scanned
+--------------------------------------------------
+SUPPLIER STATUS
+--------------------------------------------------
 
-Current Activity:
-Extracting utility records...
-
-Detected:
-- ESG documents
-- utility bills
-- supplier contracts
+☑ Fully Resolved
+☑ Partial Match
+☑ Unresolved References
 
 ==================================================
-CENTER PANEL — LIVE PROCESSING PIPELINE
+CENTER PANEL — SUPPLIER INTELLIGENCE GRID
 ==================================================
 
-THIS IS THE MOST IMPORTANT SECTION.
+THIS IS THE MAIN SECTION.
 
-Title:
-“Operational Signal Extraction Pipeline”
+Display modern supplier intelligence cards.
 
-Subheading:
+Cards should visually communicate:
+- cross-system unification
+- operational intelligence
+- supplier ecosystem visibility
 
-The platform is identifying supplier entities, operational activities, and sustainability-related signals across fragmented enterprise systems.
-
-==================================================
-LIVE PROCESSING FEED
-==================================================
-
-This should be:
-- animated
-- flowing
-- continuously updating
-- highly operational
-
-Show real-time event stream.
+NOT:
+- ESG scores
+- emissions numbers
+- complex analytics
 
 ==================================================
-EXAMPLE LIVE EVENTS
+SUPPLIER CARD DESIGN
 ==================================================
 
-[Outlook]
-Procurement invoice detected
+--------------------------------------------------
+SUPPLIER NAME
+--------------------------------------------------
 
-[Google Sheets]
-Supplier transaction row parsed
-
-[WhatsApp]
-Invoice image OCR completed
-
-[SharePoint]
-Utility bill identified
-
-[System]
-Supplier entity matched:
 Green Valley Potatoes
 
-[System]
-Operational category detected:
-Agriculture Procurement
+Confidence Score:
+94% Match Confidence
 
-[System]
-Keyword cluster identified:
-fertilizer, irrigation, diesel
-
-[System]
-Potential sustainability signal generated:
-High fertilizer dependency
-
-[System]
-Operational records linked to supplier profile
-
-==================================================
-KEYWORD EXTRACTION VISUALIZATION
-==================================================
-
-THIS IS A CORE DIFFERENTIATOR.
-
-The platform should visually show:
-RAW DATA → KEYWORDS → OPERATIONAL CATEGORY → SIGNAL
-
-==================================================
-SIGNAL MAPPING CARDS
-==================================================
-
-Example processing card:
+Status Badge:
+✓ Unified Supplier Profile
 
 --------------------------------------------------
-SOURCE RECORD
+CONNECTED SOURCES
 --------------------------------------------------
 
-Invoice:
-Bulk Nitrogen Fertilizer Purchase
+Outlook
+Google Sheets
+WhatsApp
+SharePoint
+
+(show source badges/icons)
 
 --------------------------------------------------
-EXTRACTED KEYWORDS
+DETECTED OPERATIONAL CATEGORIES
 --------------------------------------------------
 
-fertilizer
-nitrogen
-crop treatment
-irrigation
-diesel transport
-
-(animated floating keyword chips)
+- fertilizer procurement
+- irrigation operations
+- agriculture supply chain
 
 --------------------------------------------------
-OPERATIONAL CATEGORY
+OPERATIONAL RECORDS LINKED
 --------------------------------------------------
 
-Agriculture Procurement
+142 records linked
 
 --------------------------------------------------
-POTENTIAL OPERATIONAL SIGNAL
+DATA COMPLETENESS
 --------------------------------------------------
 
-Possible fertilizer emissions hotspot
+78% Coverage
+
+Coverage bar visualization.
+
+--------------------------------------------------
+DETECTED OPERATIONAL SIGNALS
+--------------------------------------------------
+
+- nitrogen-heavy procurement
+- irrigation infrastructure
+- fuel dependency
+
+(show as operational tags)
+
+--------------------------------------------------
+ACTIONS
+--------------------------------------------------
+
+[ View Supplier Profile ]
+[ Review Linked Records ]
 
 ==================================================
-ANOTHER EXAMPLE CARD
+ANOTHER SUPPLIER CARD
 ==================================================
 
-SOURCE RECORD:
-Fleet Fuel Logistics Invoice
-
-EXTRACTED KEYWORDS:
-diesel
-shipment
-cargo route
-fleet fuel
-
-OPERATIONAL CATEGORY:
-Transportation Operations
-
-POTENTIAL SIGNAL:
-Diesel-heavy logistics activity
-
-==================================================
-SUPPLIER DISCOVERY STREAM
-==================================================
-
-Separate live activity section.
-
-Title:
-“Supplier Discovery Feed”
-
-==================================================
-LIVE SUPPLIER EVENTS
-==================================================
-
-Supplier Identified:
-Green Valley Potatoes
-
-Detected Across:
-- Outlook
-- Google Sheets
-- WhatsApp
-
-Records Linked:
-42
-
-Confidence:
-94%
-
---------------------------------------------------
-
-Supplier Identified:
 EcoTrans Logistics
 
-Detected Operations:
-- fleet transportation
-- fuel logistics
+Confidence:
+91%
 
-Operational Domain:
-Transportation & Logistics
+Connected Sources:
+Outlook
+SharePoint
 
---------------------------------------------------
+Operational Categories:
+- diesel transportation
+- shipment routing
 
-Supplier Identified:
-FreshPack Industries
+Operational Signals:
+- logistics fuel usage
+- transportation operations
 
-Detected Operations:
-- packaging procurement
-- manufacturing supply chain
+Records Linked:
+81
 
 ==================================================
-SUPPLIER ENTITY RESOLUTION VISUAL
+SUPPLIER ENTITY RESOLUTION VISUALIZATION
 ==================================================
 
-Visual merge animation.
+IMPORTANT SECTION.
 
-Example:
+Title:
+“Supplier Identity Resolution”
+
+Show how fragmented supplier references were unified.
+
+==================================================
+VISUAL EXAMPLE
+==================================================
 
 Green Valley Potatoes Pvt Ltd
 GV Potatoes
 Green Valley Agro
+Green Valley Potatoes
 
 ↓ merged into ↓
 
 Unified Supplier Profile
 
 Show:
-- flowing merge lines
+- animated merge lines
+- flowing operational links
 - confidence indicators
-- operational linking
 
 ==================================================
-RIGHT PANEL — SUPPLIER INTELLIGENCE SUMMARY
+RIGHT PANEL — SUPPLIER INTELLIGENCE PREVIEW
+==================================================
+
+When a supplier card is selected:
+show detailed operational intelligence preview.
+
+==================================================
+EXAMPLE PREVIEW
+==================================================
+
+--------------------------------------------------
+SUPPLIER PROFILE
+--------------------------------------------------
+
+Green Valley Potatoes
+
+Supplier Type:
+Agriculture Procurement
+
+Operational Relationship:
+High-volume supplier
+
+--------------------------------------------------
+CONNECTED RECORDS
+--------------------------------------------------
+
+Outlook:
+42 invoices
+
+Google Sheets:
+18 procurement rows
+
+WhatsApp:
+12 invoice images
+
+SharePoint:
+6 operational documents
+
+--------------------------------------------------
+DETECTED OPERATIONS
+--------------------------------------------------
+
+- crop treatment procurement
+- irrigation infrastructure
+- fertilizer purchases
+- utility usage
+
+--------------------------------------------------
+LINKED OPERATIONAL KEYWORDS
+--------------------------------------------------
+
+fertilizer
+diesel pump
+crop treatment
+irrigation
+bulk procurement
+
+(animated keyword chips)
+
+--------------------------------------------------
+DATA QUALITY STATUS
+--------------------------------------------------
+
+✓ Supplier identity resolved
+✓ Operational categories mapped
+✓ Records linked successfully
+
+⚠ Utility records incomplete
+
+==================================================
+UNRESOLVED RECORDS SECTION
+==================================================
+
+VERY IMPORTANT FOR REALISM.
+
+Title:
+“Unresolved Supplier References”
+
+Show operational records that could not be confidently mapped.
+
+==================================================
+EXAMPLE CARD
+==================================================
+
+Potential Supplier Match Detected
+
+Detected Reference:
+GV Agro Solutions
+
+Possible Matches:
+- Green Valley Potatoes
+- Green Valley Agro
+
+Reason:
+Insufficient procurement metadata
+
+Actions:
+[ Review Match ]
+[ Merge Manually ]
+[ Ignore ]
+
+==================================================
+DATA COVERAGE SECTION
 ==================================================
 
 Title:
-“Supplier Intelligence Summary”
+“Operational Data Coverage”
 
 ==================================================
-LIVE METRICS
+COVERAGE BARS
 ==================================================
-
-Documents Processed:
-1,248
-
-Suppliers Identified:
-83
-
-Duplicate Suppliers Resolved:
-41
-
-Operational Categories Mapped:
-12
-
-Potential Sustainability Signals:
-96
-
-==================================================
-OPERATIONAL DOMAINS DETECTED
-==================================================
-
-Display operational category tags:
-
-- Agriculture Procurement
-- Transportation
-- Packaging
-- Manufacturing
-- Utility Consumption
-- Energy Usage
-- Cold Storage
-- Logistics Operations
-
-==================================================
-SIGNAL DISTRIBUTION
-==================================================
-
-Instead of charts:
-use categorized signal tags.
-
-Examples:
-- fertilizer dependency
-- diesel logistics
-- utility intensity
-- manual procurement workflows
-- refrigeration operations
-- transport fuel usage
-
-==================================================
-DATA COVERAGE VISUALIZATION
-==================================================
-
-Show source completeness bars.
 
 Outlook Coverage — High
 Google Sheets Coverage — Medium
@@ -448,38 +430,53 @@ WhatsApp Coverage — Partial
 SharePoint Coverage — High
 
 ==================================================
-BOTTOM PROCESS STATUS BAR
+MISSING SIGNALS PANEL
 ==================================================
 
-Sticky operational footer.
+⚠ No logistics invoices detected
+⚠ Limited utility records available
+⚠ Missing procurement metadata for 12 suppliers
+
+Suggested Actions:
+- connect additional systems
+- upload missing records
+- enrich supplier profiles manually
+
+==================================================
+BOTTOM ACTION BAR
+==================================================
+
+Sticky enterprise action footer.
 
 LEFT:
-Processing Status:
-● Active
+Supplier Intelligence Status
+✓ Unified Ecosystem Ready
 
 CENTER:
-Current Phase:
-Supplier Identity Resolution
+Operational Readiness
+78% Supplier Coverage
 
 RIGHT:
-Primary CTA:
-“Generate Supplier Intelligence Workspace”
+Primary CTA
 
-CTA activates after processing threshold reached.
+“Proceed to Scope 3 Intelligence Mapping”
+
+Secondary CTA:
+“Review Supplier Profiles”
 
 ==================================================
 MICRO INTERACTIONS
 ==================================================
 
 Add:
-- animated keyword chips
-- flowing operational records
-- pulsing live ingestion indicators
-- real-time supplier discovery updates
-- progressive supplier count increases
-- merge animations for supplier resolution
-- floating operational signal tags
-- hover previews for detected records
+- animated supplier merge flows
+- live supplier card updates
+- hover previews for operational records
+- expanding supplier profile transitions
+- flowing relationship lines
+- operational keyword animations
+- dynamic coverage recalculation
+- subtle confidence score animations
 
 ==================================================
 IMPORTANT UX PRINCIPLE
@@ -487,23 +484,23 @@ IMPORTANT UX PRINCIPLE
 
 The screen should communicate:
 
-“The platform is operationally understanding enterprise supplier ecosystems from fragmented records.”
+“We unified fragmented enterprise operational records into centralized supplier operational intelligence.”
 
 NOT:
-- generic AI processing
-- carbon accounting dashboard
-- fake ESG analytics
+- ESG dashboard
+- emissions analytics
+- data engineering tooling
 
 This is:
-- enterprise operational signal discovery
-- supplier intelligence orchestration
-- fragmented data normalization
-- operational sustainability mapping infrastructure
+- supplier ecosystem reconstruction
+- operational intelligence consolidation
+- enterprise supplier visibility infrastructure
+- sustainability intelligence foundation
 
 The UX should feel:
-- alive
-- continuously processing
 - operationally intelligent
-- enterprise realistic
-- technically believable
+- enterprise-grade
+- believable
 - scalable
+- centralized
+- highly structured
