@@ -1,482 +1,528 @@
-Design “Step 5 — Unified Supplier Intelligence Workspace” for HSBC Sustainable Transition Copilot.
+Design “Step 6 — Scope 3 Intelligence Mapping” for HSBC Sustainable Transition Copilot.
 
 IMPORTANT:
 This screen comes AFTER:
-- enterprise systems are connected
-- operational data ingestion is completed
-- live processing pipelines finish
-- supplier records are detected and resolved
+- supplier data ingestion
+- supplier identity resolution
+- operational intelligence consolidation
 
-This screen is NOT:
-- a dashboard
-- a normalization admin panel
-- a technical data engineering screen
-- a Scope 3 analytics page
+The platform now has:
+- unified supplier profiles
+- operational activities
+- procurement records
+- logistics data
+- utility records
+- operational keywords
+- supplier operational categories
 
-This screen represents:
-“Fragmented operational records transformed into unified supplier operational intelligence.”
+THIS SCREEN SHOULD NOT:
+- calculate exact carbon emissions
+- pretend to provide perfect ESG accuracy
+- behave like a carbon accounting platform
+- overwhelm users with technical GHG calculations
 
-The purpose of this page is to:
-- consolidate fragmented supplier records
-- unify supplier operational data
-- build centralized supplier profiles
-- establish operational intelligence foundation
-- prepare for Scope 3 mapping and transition recommendations
+Instead, this screen should:
+- map operational intelligence into Scope 3 categories
+- identify probable sustainability hotspots
+- explain WHY suppliers are relevant to Scope 3
+- establish operational sustainability visibility
+- generate sustainability intelligence foundation
 
-This screen should communicate:
-“We reconstructed your supplier ecosystem from disconnected enterprise systems.”
+The core message should be:
+
+“We mapped supplier operational activities into Scope 3 sustainability intelligence categories.”
 
 ==================================================
 OVERALL DESIGN STYLE
 ==================================================
 
 Style:
-- enterprise operational intelligence workspace
+- enterprise sustainability intelligence platform
+- operational mapping interface
 - premium modern SaaS
-- clean, intelligent, operational UI
-- supplier ecosystem command center
+- structured intelligence workspace
+- highly visual operational categorization system
 
 Design Inspiration:
-- Palantir Foundry
-- modern procurement intelligence systems
-- Scale AI operational dashboards
-- enterprise entity intelligence platforms
+- Palantir operational mapping
+- modern supply chain intelligence platforms
+- procurement intelligence systems
+- enterprise risk mapping dashboards
 
 Color Palette:
 - white/light gray background
 - dark typography
-- HSBC red primary actions
-- subtle emerald operational indicators
-- blue intelligence highlights
+- HSBC red highlights
+- emerald sustainability indicators
+- amber warning indicators
+- blue intelligence accents
 
 Avoid:
-- cluttered ESG dashboards
-- carbon charts
-- analytics overload
-- traditional admin tables
-- excessive graphs
+- heavy ESG charts
+- overwhelming emissions graphs
+- carbon accounting spreadsheets
+- complex scientific dashboards
 
-This should feel:
-- operationally intelligent
-- enterprise realistic
-- structured
-- centralized
+This screen should feel:
+- intelligent
+- operational
+- explainable
 - trustworthy
-- scalable
+- enterprise-grade
+- sustainability-focused
 
 ==================================================
 PAGE HEADER
 ==================================================
 
-Large title:
+Large Title:
 
-“Unified Supplier Intelligence Workspace”
+“Scope 3 Intelligence Mapping”
 
 Subheading:
 
-Operational records across connected enterprise systems have been consolidated into centralized supplier intelligence profiles.
+Supplier operational activities have been mapped into Scope 3 sustainability categories based on detected procurement, logistics, utility, and operational signals.
 
 ==================================================
-TOP STATUS SUMMARY BAR
+TOP SUMMARY BAR
 ==================================================
-
-Display operational metrics cards.
 
 --------------------------------------------------
 
-Suppliers Unified:
+Scope 3 Categories Identified:
+6
+
+Suppliers Mapped:
 83
 
-Operational Records Linked:
-1,248
+Operational Signals Classified:
+96
 
-Duplicate Suppliers Resolved:
-41
+High-Impact Supplier Groups:
+14
 
-Connected Systems:
-4
-
-Operational Categories Identified:
-12
-
-Data Completeness:
-78%
+Potential Sustainability Hotspots:
+22
 
 --------------------------------------------------
 
 Status Indicator:
-✓ Supplier Intelligence Foundation Ready
+✓ Scope 3 Operational Mapping Complete
 
 ==================================================
 LAYOUT STRUCTURE
 ==================================================
 
-3-column enterprise layout.
+3-column intelligence layout.
 
 --------------------------------------------------
-LEFT PANEL — SUPPLIER FILTERS
+LEFT PANEL — SCOPE 3 CATEGORIES
 --------------------------------------------------
 
 Title:
-“Supplier Intelligence Filters”
+“Detected Scope 3 Areas”
+
+Show categorized Scope 3 cards.
 
 ==================================================
-FILTER GROUPS
-==================================================
-
---------------------------------------------------
-SUPPLIER TYPE
---------------------------------------------------
-
-☑ Agriculture
-☑ Logistics
-☑ Packaging
-☑ Manufacturing
-☑ Retail Operations
-☑ Utility Providers
-
---------------------------------------------------
-DATA COMPLETENESS
---------------------------------------------------
-
-☑ High Coverage
-☑ Medium Coverage
-☑ Missing Operational Records
-
---------------------------------------------------
-CONNECTED SOURCES
---------------------------------------------------
-
-☑ Outlook
-☑ Google Sheets
-☑ SharePoint
-☑ WhatsApp Business
-☑ Google Drive
-
---------------------------------------------------
-OPERATIONAL DOMAINS
---------------------------------------------------
-
-☑ Procurement
-☑ Logistics
-☑ Utility Consumption
-☑ Fuel Operations
-☑ Packaging
-☑ Transportation
-☑ Refrigeration
-☑ Agriculture Procurement
-
---------------------------------------------------
-SUPPLIER STATUS
---------------------------------------------------
-
-☑ Fully Resolved
-☑ Partial Match
-☑ Unresolved References
-
-==================================================
-CENTER PANEL — SUPPLIER INTELLIGENCE GRID
-==================================================
-
-THIS IS THE MAIN SECTION.
-
-Display modern supplier intelligence cards.
-
-Cards should visually communicate:
-- cross-system unification
-- operational intelligence
-- supplier ecosystem visibility
-
-NOT:
-- ESG scores
-- emissions numbers
-- complex analytics
-
-==================================================
-SUPPLIER CARD DESIGN
+CATEGORY CARDS
 ==================================================
 
 --------------------------------------------------
-SUPPLIER NAME
+CATEGORY 1
 --------------------------------------------------
+
+Purchased Goods & Services
+
+Detected Signals:
+- fertilizer procurement
+- packaging materials
+- raw material sourcing
+
+Mapped Suppliers:
+32
+
+Impact Level:
+High
+
+--------------------------------------------------
+CATEGORY 4
+--------------------------------------------------
+
+Upstream Transportation & Distribution
+
+Detected Signals:
+- diesel logistics invoices
+- shipment routing
+- fleet fuel operations
+
+Mapped Suppliers:
+18
+
+Impact Level:
+High
+
+--------------------------------------------------
+CATEGORY 3
+--------------------------------------------------
+
+Fuel & Energy Related Activities
+
+Detected Signals:
+- utility consumption
+- electricity bills
+- diesel generator usage
+
+Mapped Suppliers:
+11
+
+Impact Level:
+Medium
+
+--------------------------------------------------
+CATEGORY 5
+--------------------------------------------------
+
+Waste Generated In Operations
+
+Detected Signals:
+- packaging disposal
+- operational waste handling
+
+Mapped Suppliers:
+6
+
+Impact Level:
+Medium
+
+==================================================
+CENTER PANEL — OPERATIONAL → SCOPE 3 MAPPING
+==================================================
+
+THIS IS THE MAIN “WOW” SECTION.
+
+Title:
+“Operational Signal Intelligence Mapping”
+
+Subheading:
+
+Operational records and procurement activities are being classified into sustainability-relevant Scope 3 categories.
+
+==================================================
+MAPPING PIPELINE VISUALIZATION
+==================================================
+
+The screen should visually show:
+
+RAW OPERATIONAL DATA
+↓
+KEYWORD EXTRACTION
+↓
+OPERATIONAL CLASSIFICATION
+↓
+SCOPE 3 CATEGORY MAPPING
+↓
+SUSTAINABILITY HOTSPOT DETECTION
+
+==================================================
+LIVE MAPPING CARDS
+==================================================
+
+--------------------------------------------------
+EXAMPLE CARD 1
+--------------------------------------------------
+
+SOURCE RECORD:
+Bulk Nitrogen Fertilizer Purchase
+
+Detected Keywords:
+fertilizer
+nitrogen
+crop treatment
+irrigation
+
+Operational Domain:
+Agriculture Procurement
+
+Mapped Scope 3 Category:
+Purchased Goods & Services
+
+Potential Sustainability Insight:
+Possible fertilizer emissions hotspot
+
+Affected Suppliers:
+Green Valley Potatoes
+
+--------------------------------------------------
+EXAMPLE CARD 2
+--------------------------------------------------
+
+SOURCE RECORD:
+Fleet Fuel Logistics Invoice
+
+Detected Keywords:
+diesel
+shipment
+cargo route
+fleet fuel
+
+Operational Domain:
+Transportation Operations
+
+Mapped Scope 3 Category:
+Transportation & Distribution
+
+Potential Sustainability Insight:
+Diesel-heavy logistics dependency
+
+Affected Suppliers:
+EcoTrans Logistics
+
+--------------------------------------------------
+EXAMPLE CARD 3
+--------------------------------------------------
+
+SOURCE RECORD:
+Cold Storage Utility Bill
+
+Detected Keywords:
+electricity
+refrigeration
+cold storage
+energy usage
+
+Operational Domain:
+Utility Consumption
+
+Mapped Scope 3 Category:
+Fuel & Energy Related Activities
+
+Potential Sustainability Insight:
+High refrigeration energy dependency
+
+==================================================
+SUSTAINABILITY HOTSPOT DETECTION
+==================================================
+
+Separate intelligence section.
+
+Title:
+“Potential Sustainability Hotspots”
+
+Display hotspot cards.
+
+==================================================
+HOTSPOT CARD EXAMPLE
+==================================================
+
+Agriculture Procurement Risk Cluster
+
+Detected Across:
+- fertilizer invoices
+- irrigation operations
+- agriculture suppliers
+
+Associated Suppliers:
+14
+
+Potential Concerns:
+- fertilizer dependency
+- irrigation energy usage
+- diesel pump operations
+
+Priority:
+High
+
+--------------------------------------------------
+
+Transportation Emissions Cluster
+
+Detected Across:
+- logistics invoices
+- shipment routing
+- fuel procurement
+
+Associated Suppliers:
+8
+
+Potential Concerns:
+- diesel fleet dependency
+- high transportation activity
+
+Priority:
+High
+
+==================================================
+SUPPLIER IMPACT MAPPING
+==================================================
+
+Title:
+“Supplier Sustainability Relevance”
+
+Show supplier intelligence cards mapped to Scope 3 areas.
+
+==================================================
+SUPPLIER CARD EXAMPLE
+==================================================
 
 Green Valley Potatoes
 
-Confidence Score:
-94% Match Confidence
+Mapped Scope 3 Areas:
+- Purchased Goods & Services
+- Fuel & Energy Related Activities
 
-Status Badge:
-✓ Unified Supplier Profile
-
---------------------------------------------------
-CONNECTED SOURCES
---------------------------------------------------
-
-Outlook
-Google Sheets
-WhatsApp
-SharePoint
-
-(show source badges/icons)
-
---------------------------------------------------
-DETECTED OPERATIONAL CATEGORIES
---------------------------------------------------
-
+Detected Operational Signals:
 - fertilizer procurement
 - irrigation operations
-- agriculture supply chain
+
+Potential Sustainability Areas:
+- fertilizer intensity
+- energy consumption
+
+Impact Relevance:
+High
+
+Button:
+[ View Transition Intelligence ]
 
 --------------------------------------------------
-OPERATIONAL RECORDS LINKED
---------------------------------------------------
-
-142 records linked
-
---------------------------------------------------
-DATA COMPLETENESS
---------------------------------------------------
-
-78% Coverage
-
-Coverage bar visualization.
-
---------------------------------------------------
-DETECTED OPERATIONAL SIGNALS
---------------------------------------------------
-
-- nitrogen-heavy procurement
-- irrigation infrastructure
-- fuel dependency
-
-(show as operational tags)
-
---------------------------------------------------
-ACTIONS
---------------------------------------------------
-
-[ View Supplier Profile ]
-[ Review Linked Records ]
-
-==================================================
-ANOTHER SUPPLIER CARD
-==================================================
 
 EcoTrans Logistics
 
-Confidence:
-91%
+Mapped Scope 3 Areas:
+- Transportation & Distribution
 
-Connected Sources:
-Outlook
-SharePoint
-
-Operational Categories:
-- diesel transportation
+Detected Signals:
+- diesel logistics
 - shipment routing
 
-Operational Signals:
+Potential Sustainability Areas:
 - logistics fuel usage
-- transportation operations
-
-Records Linked:
-81
 
 ==================================================
-SUPPLIER ENTITY RESOLUTION VISUALIZATION
+RIGHT PANEL — SUSTAINABILITY INTELLIGENCE SUMMARY
 ==================================================
-
-IMPORTANT SECTION.
 
 Title:
-“Supplier Identity Resolution”
-
-Show how fragmented supplier references were unified.
+“Operational Sustainability Insights”
 
 ==================================================
-VISUAL EXAMPLE
+LIVE METRICS
 ==================================================
 
-Green Valley Potatoes Pvt Ltd
-GV Potatoes
-Green Valley Agro
-Green Valley Potatoes
+High-Impact Suppliers:
+14
 
-↓ merged into ↓
+Operational Domains Detected:
+12
 
-Unified Supplier Profile
+Potential Hotspots:
+22
 
-Show:
-- animated merge lines
-- flowing operational links
-- confidence indicators
+Supplier Coverage:
+78%
 
 ==================================================
-RIGHT PANEL — SUPPLIER INTELLIGENCE PREVIEW
+MOST DETECTED SIGNALS
 ==================================================
 
-When a supplier card is selected:
-show detailed operational intelligence preview.
+Display operational keyword clusters.
+
+Examples:
+- fertilizer dependency
+- diesel transportation
+- utility intensity
+- refrigeration operations
+- packaging procurement
+- energy consumption
 
 ==================================================
-EXAMPLE PREVIEW
+SCOPE 3 DISTRIBUTION
 ==================================================
 
---------------------------------------------------
-SUPPLIER PROFILE
---------------------------------------------------
+Instead of complicated charts:
+use categorized visual blocks.
 
-Green Valley Potatoes
+Example:
 
-Supplier Type:
+Purchased Goods & Services
+██████████
+
+Transportation & Distribution
+███████
+
+Fuel & Energy Activities
+█████
+
+Waste Operations
+███
+
+==================================================
+EXPLAINABILITY PANEL
+==================================================
+
+VERY IMPORTANT FOR TRUST.
+
+Title:
+“How Scope 3 Mapping Works”
+
+Show explainable operational logic.
+
+Example:
+
+Diesel logistics invoices
+↓
+Transportation Operations
+↓
+Mapped to:
+Upstream Transportation & Distribution
+
+Fertilizer procurement
+↓
 Agriculture Procurement
+↓
+Mapped to:
+Purchased Goods & Services
 
-Operational Relationship:
-High-volume supplier
-
---------------------------------------------------
-CONNECTED RECORDS
---------------------------------------------------
-
-Outlook:
-42 invoices
-
-Google Sheets:
-18 procurement rows
-
-WhatsApp:
-12 invoice images
-
-SharePoint:
-6 operational documents
-
---------------------------------------------------
-DETECTED OPERATIONS
---------------------------------------------------
-
-- crop treatment procurement
-- irrigation infrastructure
-- fertilizer purchases
-- utility usage
-
---------------------------------------------------
-LINKED OPERATIONAL KEYWORDS
---------------------------------------------------
-
-fertilizer
-diesel pump
-crop treatment
-irrigation
-bulk procurement
-
-(animated keyword chips)
-
---------------------------------------------------
-DATA QUALITY STATUS
---------------------------------------------------
-
-✓ Supplier identity resolved
-✓ Operational categories mapped
-✓ Records linked successfully
-
-⚠ Utility records incomplete
-
-==================================================
-UNRESOLVED RECORDS SECTION
-==================================================
-
-VERY IMPORTANT FOR REALISM.
-
-Title:
-“Unresolved Supplier References”
-
-Show operational records that could not be confidently mapped.
-
-==================================================
-EXAMPLE CARD
-==================================================
-
-Potential Supplier Match Detected
-
-Detected Reference:
-GV Agro Solutions
-
-Possible Matches:
-- Green Valley Potatoes
-- Green Valley Agro
-
-Reason:
-Insufficient procurement metadata
-
-Actions:
-[ Review Match ]
-[ Merge Manually ]
-[ Ignore ]
-
-==================================================
-DATA COVERAGE SECTION
-==================================================
-
-Title:
-“Operational Data Coverage”
-
-==================================================
-COVERAGE BARS
-==================================================
-
-Outlook Coverage — High
-Google Sheets Coverage — Medium
-WhatsApp Coverage — Partial
-SharePoint Coverage — High
-
-==================================================
-MISSING SIGNALS PANEL
-==================================================
-
-⚠ No logistics invoices detected
-⚠ Limited utility records available
-⚠ Missing procurement metadata for 12 suppliers
-
-Suggested Actions:
-- connect additional systems
-- upload missing records
-- enrich supplier profiles manually
+This makes the system feel:
+- explainable
+- trustworthy
+- realistic
 
 ==================================================
 BOTTOM ACTION BAR
 ==================================================
 
-Sticky enterprise action footer.
+Sticky footer action bar.
 
 LEFT:
-Supplier Intelligence Status
-✓ Unified Ecosystem Ready
+Mapping Status
+✓ Scope 3 Intelligence Ready
 
 CENTER:
-Operational Readiness
-78% Supplier Coverage
+Potential Transition Opportunities
+22 Identified
 
 RIGHT:
-Primary CTA
-
-“Proceed to Scope 3 Intelligence Mapping”
+Primary CTA:
+“Generate Transition Recommendations”
 
 Secondary CTA:
-“Review Supplier Profiles”
+“Review Scope 3 Mapping”
 
 ==================================================
 MICRO INTERACTIONS
 ==================================================
 
 Add:
-- animated supplier merge flows
-- live supplier card updates
-- hover previews for operational records
-- expanding supplier profile transitions
-- flowing relationship lines
-- operational keyword animations
-- dynamic coverage recalculation
-- subtle confidence score animations
+- flowing operational mapping animations
+- animated keyword chips
+- dynamic Scope 3 category highlighting
+- expanding supplier impact cards
+- hotspot pulse indicators
+- operational mapping transitions
+- hover previews for mapped signals
+- animated intelligence linking
 
 ==================================================
 IMPORTANT UX PRINCIPLE
@@ -484,23 +530,23 @@ IMPORTANT UX PRINCIPLE
 
 The screen should communicate:
 
-“We unified fragmented enterprise operational records into centralized supplier operational intelligence.”
+“We translated fragmented supplier operational activity into sustainability-relevant Scope 3 intelligence.”
 
 NOT:
-- ESG dashboard
-- emissions analytics
-- data engineering tooling
+- exact emissions accounting
+- fake AI carbon precision
+- generic ESG dashboard
 
 This is:
-- supplier ecosystem reconstruction
-- operational intelligence consolidation
-- enterprise supplier visibility infrastructure
-- sustainability intelligence foundation
+- operational sustainability intelligence
+- explainable Scope 3 mapping
+- supplier sustainability categorization
+- enterprise transition visibility infrastructure
 
 The UX should feel:
 - operationally intelligent
-- enterprise-grade
-- believable
-- scalable
-- centralized
+- explainable
+- trustworthy
+- enterprise realistic
+- sustainability-focused
 - highly structured
