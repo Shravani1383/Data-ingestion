@@ -1,405 +1,553 @@
-Redesign the HSBC Sustainable Transition Copilot into an AI-powered supplier sustainability intelligence platform focused on fragmented supplier data ingestion, supplier transition visibility, and collaborative supplier transition enablement.
+Design a premium enterprise-grade “Supplier Data Ingestion & Intelligence Workspace” for HSBC Sustainable Transition Copilot.
 
 IMPORTANT:
-The platform user is NOT the supplier.
+This is NOT an ESG dashboard.
 
-The primary user is:
-- enterprise client
-- procurement team
-- sustainability team
-- supply chain operations team
+This is:
+- a supplier sustainability intelligence ingestion platform
+- a fragmented enterprise data unification system
+- an AI-assisted operational data orchestration layer
 
-The platform helps enterprise clients:
-- consolidate fragmented supplier operational data
-- identify supplier sustainability risks
-- generate supplier transition recommendations
-- engage suppliers collaboratively
-- discover financing and ecosystem opportunities
+The goal of this experience is:
+- connect fragmented enterprise systems
+- ingest supplier operational data
+- unify supplier records
+- build supplier profiles
+- prepare sustainability intelligence pipelines
 
-This is NOT:
-- an ESG reporting dashboard
-- a generic sustainability portal
-- a vendor marketplace
-- a supplier self-service app
+DO NOT focus on analytics or charts yet.
 
-This should feel like:
-- AI-powered supply chain sustainability intelligence
-- modern operational intelligence platform
-- document intelligence + transition orchestration system
+The UI should primarily communicate:
+“Connect systems → ingest fragmented supplier data → unify supplier intelligence.”
 
 ==================================================
 OVERALL DESIGN STYLE
 ==================================================
 
-Visual Style:
-- premium HSBC enterprise aesthetic
-- AI-native platform
-- modern operational intelligence UI
-- clean but intelligent
-- minimal but data-rich
-- futuristic enterprise SaaS
-
-Color Palette:
-- soft white background
-- light gray panels
-- HSBC red accents
-- subtle emerald sustainability indicators
-- dark typography
-- clean AI processing highlights
+Style:
+- modern enterprise SaaS
+- AI-native operational platform
+- premium HSBC product
+- clean, intelligent, process-driven UI
 
 Design Inspiration:
-- Notion AI
 - Stripe Dashboard
+- Notion AI
+- Scale AI operational interfaces
 - Linear
-- Scale AI operational dashboards
+- Palantir Foundry (simplified)
 - modern procurement intelligence systems
 
-Avoid:
-- overly futuristic neon dashboards
-- cluttered ESG analytics
-- PowerBI-style graphs everywhere
-- banking portal complexity
+Color Palette:
+- clean white/light gray background
+- HSBC red accent
+- soft emerald sustainability indicators
+- subtle AI blue highlights
+- dark typography
+- minimal glassmorphism
+
+DO NOT:
+- make it look like PowerBI
+- clutter with charts
+- overload with analytics
+- use futuristic neon cyberpunk UI
+
+The interface should feel:
+- trustworthy
+- operational
+- enterprise-grade
+- intelligent
+- scalable
 
 ==================================================
-NEW LANDING PAGE STRUCTURE
+PRIMARY USER
 ==================================================
 
-==================================================
-SECTION 1 — HERO
-==================================================
+The user is:
+- enterprise procurement team
+- sustainability team
+- operations team
+- supply chain management team
 
-Large clean hero section.
-
-LEFT SIDE:
-Headline:
-
-“AI-powered supplier sustainability intelligence.”
-
-Subheadline:
-
-Upload fragmented supplier invoices, utility bills, procurement exports, and operational documents to automatically identify supplier sustainability risks and generate transition recommendations at scale.
-
-CTA Buttons:
-- Create Supplier Workspace
-- View Demo Journey
-
-RIGHT SIDE:
-Interactive UI preview showing:
-- supplier upload processing
-- supplier cards being generated
-- AI extracting sustainability insights
-- transition recommendations appearing dynamically
-
-The hero visual should communicate:
-“AI understanding fragmented supplier operational data.”
+NOT suppliers.
 
 ==================================================
-SECTION 2 — THE CORE PROBLEM
+END-TO-END USER FLOW
 ==================================================
 
-Title:
-“Why supplier sustainability transition is difficult today”
+The entire experience should visually guide users through:
 
-4 premium problem cards.
-
-CARD 1:
-Fragmented Supplier Data
-
-Supplier sustainability information exists across invoices, utility bills, spreadsheets, procurement systems, and PDFs with no unified visibility.
-
-CARD 2:
-Limited Supplier Transition Visibility
-
-Enterprises struggle to identify which suppliers require sustainability engagement or operational improvement.
-
-CARD 3:
-Manual ESG Assessment Processes
-
-Supplier sustainability analysis is time-consuming, inconsistent, and difficult to scale across large supply chains.
-
-CARD 4:
-Disconnected Transition Ecosystem
-
-Vendors, consultants, certifications, subsidies, and financing opportunities are fragmented and difficult to coordinate.
+1. Create Company Workspace
+2. Connect Enterprise Systems
+3. Configure Data Access
+4. Ingest Operational Documents
+5. Normalize Supplier Data
+6. Resolve Supplier Identities
+7. Build Unified Supplier Profiles
+8. Generate Supplier Intelligence Foundation
 
 ==================================================
-SECTION 3 — HOW THE PLATFORM WORKS
+SCREEN 1 — CREATE COMPANY WORKSPACE
 ==================================================
 
-Title:
-“From fragmented documents to supplier transition intelligence”
+Page Title:
+“Create Supplier Sustainability Workspace”
 
-Horizontal AI workflow visualization.
-
-STEP 1:
-Upload Supplier Data
-- invoices
-- utility bills
-- procurement exports
-- ESG reports
-- logistics records
-
-STEP 2:
-AI Extracts Sustainability Signals
-- supplier identification
-- fuel usage
-- utility consumption
-- operational patterns
-- ESG indicators
-
-STEP 3:
-Generate Supplier Transition Recommendations
-AI identifies:
-- emission hotspots
-- operational inefficiencies
-- sustainability opportunities
-
-STEP 4:
-Collaborate With Suppliers
-Share transition recommendations and sustainability pathways with suppliers.
-
-STEP 5:
-Discover Transition Support
-Identify:
-- vendors
-- consultants
-- certification agencies
-- subsidies
-- financing opportunities
-
-STEP 6:
-Enable Sustainable Finance Engagement
-Notify HSBC sustainability finance teams when supplier transition financing opportunities are identified.
-
-==================================================
-SECTION 4 — SUPPLIER DATA INGESTION EXPERIENCE
-==================================================
-
-THIS IS THE MOST IMPORTANT SECTION.
-
-Show a large AI-powered supplier data ingestion workspace.
+Subheading:
+Set up your operational sustainability workspace to unify supplier intelligence across fragmented enterprise systems.
 
 Layout:
+clean onboarding-style setup page.
 
-LEFT PANEL:
-“Data Sources”
+Fields:
+- Company Name
+- Industry
+- Primary Operations
+- Estimated Supplier Count
+- Known Supplier Categories
 
-Categories:
-- Supplier Invoices
-- Utility Bills
-- ERP Exports
-- Procurement Reports
-- ESG Documents
-- Logistics Records
+Example categories:
+- agriculture suppliers
+- logistics providers
+- packaging vendors
+- manufacturing partners
 
-CENTER:
-Large intelligent upload area.
+UI Style:
+- clean onboarding wizard
+- intelligent AI assistant guidance panel on right
+- modern form inputs
+- subtle operational illustrations
 
-Headline:
-“Upload Supplier Operational Documents”
+BOTTOM CTA:
+“Continue to Data Connections”
 
-Drag-and-drop zone for:
-- PDFs
-- CSV
+==================================================
+SCREEN 2 — CONNECT DATA SOURCES
+==================================================
+
+THIS IS THE MOST IMPORTANT SCREEN.
+
+Page Title:
+“Connect Enterprise Data Sources”
+
+Subheading:
+Securely connect procurement systems, communication platforms, cloud storage, and operational records to unify supplier intelligence.
+
+==================================================
+CONNECTOR GRID
+==================================================
+
+Group connectors into categories.
+
+--------------------------------------------------
+CATEGORY 1 — PROCUREMENT & OPERATIONS
+--------------------------------------------------
+
+Cards:
+- Outlook
+- SharePoint
+- SAP
+- Oracle
 - Excel
-- Images
+- Google Sheets
 
-Show floating upload cards.
+Each connector card includes:
+- connector icon
+- short operational description
+- type of supplier data accessible
+- security indicator
+- Connect button
 
-Below upload area:
-AI Processing Feed:
+Example:
+OUTLOOK
 
-✓ Invoice processed
-✓ Supplier identified
-✓ Utility data extracted
-✓ Fuel usage mapped
-✓ Emission category detected
-✓ Supplier profile generated
+Description:
+Access supplier invoices, procurement conversations, logistics attachments, and operational documents.
 
-RIGHT PANEL:
-“Supplier Intelligence Summary”
+Data Types:
+- invoices
+- quotations
+- logistics bills
+- procurement communication
 
-Live metrics:
-- Suppliers detected
-- High-risk suppliers
-- Scope 3 categories identified
-- Utility documents processed
-- Sustainability signals detected
-
-This section should visually communicate:
-“AI automatically turning scattered documents into supplier intelligence.”
-
-==================================================
-SECTION 5 — SUPPLIER INTELLIGENCE OVERVIEW
-==================================================
-
-Title:
-“AI-generated supplier transition visibility”
-
-Show supplier intelligence cards.
-
-Example cards:
+Button:
+[ Connect Securely ]
 
 --------------------------------------------------
-
-Green Valley Potatoes
-Transition Readiness: Moderate
-
-Detected Issues:
-- high fertilizer dependency
-- irrigation energy inefficiency
-
-Recommended Actions:
-- precision farming optimization
-- solar irrigation exploration
-
+CATEGORY 2 — CLOUD STORAGE
 --------------------------------------------------
 
-EcoTrans Logistics
-Transition Readiness: High Risk
+Cards:
+- Google Drive
+- OneDrive
+- Dropbox
 
-Detected Issues:
-- diesel-heavy transportation
-
-Recommended Actions:
-- EV logistics transition
-- fleet optimization
+Descriptions:
+Access ESG reports, utility bills, procurement files, and supplier documents stored across shared drives.
 
 --------------------------------------------------
+CATEGORY 3 — COMMUNICATION CHANNELS
+--------------------------------------------------
 
-FreshPack Industries
-Transition Readiness: Medium
+Cards:
+- WhatsApp Business
+- Teams
+- Telegram
 
-Detected Issues:
-- manual ESG reporting
-- missing sustainability disclosures
+Descriptions:
+Ingest invoice images, shipment confirmations, operational updates, and supplier communication records.
 
-Recommended Actions:
-- ESG reporting digitization
-- disclosure standardization
+--------------------------------------------------
+CATEGORY 4 — MANUAL IMPORTS
+--------------------------------------------------
 
-Each supplier card contains:
-- sustainability readiness
-- detected issues
-- transition opportunities
-- supplier engagement status
-
-Buttons:
-- View Transition Journey
-- Share With Supplier
+Cards:
+- PDF Upload
+- CSV Upload
+- Excel Upload
+- Image Upload
 
 ==================================================
-SECTION 6 — SUPPLIER TRANSITION JOURNEY
+CONNECTOR STATUS VISUALS
 ==================================================
 
-Show example roadmap generated for a supplier.
+Each connector card shows status:
+
+- Not Connected
+- Connecting
+- Syncing
+- Connected
+- Permission Required
+
+Connected cards glow subtly.
+
+==================================================
+SCREEN 3 — CONNECTOR CONFIGURATION
+==================================================
+
+When user clicks a connector:
+open enterprise-style configuration modal.
+
+==================================================
+EXAMPLE — OUTLOOK CONFIGURATION
+==================================================
+
+Modal Title:
+“Configure Outlook Access”
+
+Sections:
+
+--------------------------------------------------
+SELECT MAILBOX FOLDERS
+--------------------------------------------------
+
+Checkboxes:
+☑ Procurement
+☑ Supplier Invoices
+☑ Logistics
+☐ Personal
+☐ HR
+
+--------------------------------------------------
+FILE TYPES
+--------------------------------------------------
+
+☑ PDF
+☑ Excel
+☑ CSV
+☑ Images
+
+--------------------------------------------------
+DATE RANGE
+--------------------------------------------------
+
+Dropdown:
+- Last 3 months
+- Last 6 months
+- Last 12 months
+- Custom
+
+--------------------------------------------------
+SYNC SETTINGS
+--------------------------------------------------
+
+☑ Continuous sync enabled
+☑ Read-only ingestion
+
+BOTTOM BUTTON:
+[ Start Secure Sync ]
 
 IMPORTANT:
-This is NOT a project tracker.
+The UI should strongly communicate:
+- governed ingestion
+- enterprise security
+- read-only access
 
-This is:
-“AI-generated supplier transition recommendations.”
+==================================================
+SCREEN 4 — LIVE INGESTION CENTER
+==================================================
+
+THIS IS THE BIGGEST WOW SCREEN.
+
+Page Title:
+“Supplier Intelligence Processing”
+
+Subheading:
+Operational records are being normalized and mapped into unified supplier intelligence.
+
+==================================================
+LAYOUT
+==================================================
+
+--------------------------------------------------
+LEFT PANEL — CONNECTED SOURCES
+--------------------------------------------------
+
+List all connected systems.
+
+Each source displays:
+- sync status
+- files processed
+- suppliers detected
+- latest sync timestamp
+
+Example:
+Outlook
+✓ Connected
+324 attachments processed
+
+Google Drive
+Syncing…
+148 documents detected
+
+--------------------------------------------------
+CENTER PANEL — LIVE PROCESSING FEED
+--------------------------------------------------
+
+Animated operational feed.
+
+This should feel:
+- alive
+- AI-assisted
+- operationally intelligent
+
+Example feed events:
+
+Scanning procurement attachments...
+Parsing supplier invoices...
+Detecting supplier references...
+Normalizing procurement records...
+Extracting transaction metadata...
+Matching supplier entities...
+Resolving duplicate suppliers...
+Linking operational records...
+Building supplier profiles...
+
+Use:
+- animated loading states
+- live processing indicators
+- flowing operational activity
+
+--------------------------------------------------
+RIGHT PANEL — INGESTION SUMMARY
+--------------------------------------------------
+
+Live metrics cards:
+
+- Total Documents Processed
+- Suppliers Identified
+- Operational Records Linked
+- Duplicate Suppliers Resolved
+- Procurement Sources Connected
+- Pending Review Records
+
+Use subtle operational visuals.
+
+==================================================
+SCREEN 5 — DOCUMENT NORMALIZATION VIEW
+==================================================
+
+Page Title:
+“Operational Data Normalization”
+
+Show:
+how fragmented records are unified.
+
+==================================================
+LAYOUT
+==================================================
+
+LEFT SIDE:
+Original raw records.
+
+Examples:
+- Outlook invoice attachment
+- Google Sheet supplier row
+- WhatsApp invoice image
+- SharePoint procurement file
+
+RIGHT SIDE:
+Normalized operational record.
 
 Example:
 
---------------------------------------------------
+Supplier:
+Green Valley Potatoes
 
-Reduce Fertilizer Emissions
-Priority: High
+Detected Across:
+- Outlook
+- Google Sheets
+- WhatsApp
+- SharePoint
 
-AI detected unusually high nitrogen fertilizer dependency through procurement analysis.
+Detected Categories:
+- agriculture supplier
+- fertilizer procurement
 
-Suggested Action:
-Implement precision fertilizer optimization practices.
+Linked Operational Records:
+42
 
-Expected Impact:
-- lower emissions
-- reduced fertilizer waste
-- operational savings
+==================================================
+SCREEN 6 — SUPPLIER ENTITY RESOLUTION
+==================================================
 
-Support Available:
-- sustainable agriculture guidance
-- precision farming providers
-- agriculture subsidy programs
+THIS IS A KEY DIFFERENTIATOR SCREEN.
 
---------------------------------------------------
+Page Title:
+“Supplier Identity Resolution”
 
-Upgrade To Solar Irrigation
-Priority: Medium
+Subheading:
+Fragmented supplier records are automatically unified into consolidated supplier profiles.
 
-Support Available:
-- solar irrigation vendors
-- financing eligibility pathways
-- renewable agriculture incentives
+==================================================
+VISUALIZATION
+==================================================
+
+Show supplier variations merging visually.
+
+Example:
+
+Green Valley Potatoes Pvt Ltd
+GV Potatoes
+Green Valley Agro
+Green Valley Potatoes
+
+↓ merges into ↓
+
+Unified Supplier Profile
+
+Use:
+- flowing node connections
+- merge animations
+- operational graph visuals
+
+RIGHT PANEL:
+Confidence indicators:
+- Name similarity
+- Transaction overlap
+- Address match
+- Procurement category match
+
+==================================================
+SCREEN 7 — SUPPLIER NETWORK VIEW
+==================================================
+
+Page Title:
+“Unified Supplier Intelligence Workspace”
+
+Show:
+AI-generated supplier profiles.
+
+Grid/list of supplier cards.
+
+==================================================
+SUPPLIER CARD DESIGN
+==================================================
+
+Supplier Name:
+Green Valley Potatoes
+
+Connected Sources:
+- Outlook
+- Google Drive
+- Google Sheets
+
+Detected Operational Categories:
+- fertilizer procurement
+- irrigation equipment
+
+Operational Activity:
+High
+
+Records Linked:
+142
+
+Data Completeness:
+Moderate
 
 Buttons:
-- View Support Ecosystem
-- Explore Financing Potential
-
---------------------------------------------------
-
-Improve ESG Reporting
-Priority: Medium
-
-Support Available:
-- ESG consultants
-- reporting guidance
-- disclosure frameworks
-
---------------------------------------------------
+- View Supplier Profile
+- Review Operational Records
 
 ==================================================
-SECTION 7 — SUPPLIER COLLABORATION
+SCREEN 8 — DATA GOVERNANCE & COVERAGE
 ==================================================
 
-Title:
-“Collaborative supplier transition enablement”
+Page Title:
+“Data Governance & Coverage”
 
-Show lightweight supplier-facing workspace.
-
-Features:
-- shared transition recommendations
-- sustainability guidance
-- ecosystem discovery
-- financing interest indication
-- supplier engagement responses
-
-Show flow:
-Client → Supplier → Ecosystem → HSBC
-
-IMPORTANT:
-Do NOT make this a complex supplier dashboard.
-
-Keep it:
-- lightweight
-- collaborative
-- guidance-focused
+Show enterprise governance controls.
 
 ==================================================
-SECTION 8 — HSBC VALUE
+SECTIONS
 ==================================================
 
-Title:
-“How HSBC benefits”
-
-Cards:
-
-- Better supplier sustainability visibility
-- Scalable supplier transition engagement
-- Structured sustainable finance opportunities
-- Improved supply chain sustainability intelligence
-- Stronger Scope 3 transition enablement
+- Connected systems
+- Permission scopes
+- Sync frequency
+- Audit logs
+- Supplier coverage completeness
+- Missing data indicators
+- Data ingestion history
 
 ==================================================
-SECTION 9 — FINAL CTA
+MISSING DATA DETECTION
 ==================================================
 
-Headline:
-“Start building supplier sustainability intelligence.”
+Example card:
 
-Subheadline:
-Transform fragmented supplier operational data into actionable transition visibility and collaborative sustainability engagement.
+Potential Missing Supplier Information
 
-Buttons:
-- Create Supplier Workspace
-- Explore Demo
+Supplier references detected in procurement records without supporting operational documents.
+
+Suggested Actions:
+- connect additional systems
+- upload supporting invoices
+- enrich supplier profile manually
+
+==================================================
+IMPORTANT PRODUCT MESSAGE
+==================================================
+
+Throughout the experience, the UI must communicate:
+
+“This platform unifies fragmented operational supplier data into a centralized supplier intelligence foundation.”
+
+NOT:
+- ESG reporting
+- dashboards
+- generic file uploads
+
+This should feel like:
+- enterprise operational intelligence
+- AI-assisted ingestion orchestration
+- supply chain intelligence infrastructure
+- sustainability data fabric
+
+The UX should feel:
+- guided
+- intelligent
+- enterprise-ready
+- operationally realistic
+- secure
+- scalable
