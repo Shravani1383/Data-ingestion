@@ -263,7 +263,149 @@ PLAN OPERATIONS:
 
 Now generate the complete spec file:
 
+PLAN → SPEC TRANSLATION GUIDE
+How your Plan Generator output maps to spec file operations:
+PLAN OPERATION                       →  SPEC OPERATION
+─────────────────────────────────────────────────────────
+"action": "CREATE_FILE"              →  <<<CREATE ... >>>END
+"action": "MODIFY_FILE"              →  <<<OLD ... >>>NEW ... >>>END
+"action": "EXTEND"                   →  <<<OLD (anchor) >>>NEW (anchor + addition) >>>END
+"action": "DELETE"                   →  <<<DELETE>>>
+"action": "ADD_IMPORT"               →  <<<OLD (existing imports) >>>NEW (+ new import) >>>END
+"action": "ADD_FUNCTION"             →  <<<OLD (function before) >>>NEW (function before + new) >>>END
+"action": "MODIFY_CONSTANT"          →  <<<OLD (full const) >>>NEW (modified const) >>>END
+"action": "REVIEW_ONLY"              →  (No spec entry — skip)
 
+EXAMPLE: PLAN → SPEC FILE
+Plan Input:
+json{
+  "tasks": [
+    {
+      "task_id": "TASK_001",
+      "operations": [
+        {
+          "type": "CREATE_FILE",
+          "target_file": "src/auth/jwt.service.ts",
+          "code_template": "JWT service with generateToken, verifyToken, refreshToken",
+          "style_guide": "ES6 exports, async/await, 2-space indent, single quotes"
+        },
+        {
+          "type": "ADD_IMPORT",
+          "target_file": "src/app.ts",
+          "location": "After line 3 (other imports)",
+          "import_to_add": "import { JwtService } from './auth/jwt.service';"
+        },
+        {
+          "type": "EXTEND",
+          "target_file": "src/auth/authentication.ts",
+          "anchor_function": "verifyToken",
+          "add_after": "generatePasswordResetToken function"
+        }
+      ]
+    }
+  ]
+}
+Generated Spec File:
+<<<FILE: src/auth/jwt.service.ts>>>
+<<<CREATE
+import jwt from 'jsonwebtoken';
+import { JwtPayload } from '../types/auth.types';
+
+const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_EXPIRY = process.env.JWT_EXPIRY || '24h';
+const JWT_REFRESH_EXPIRY = process.env.JWT_REFRESH_EXPIRY || '7d';
+
+export function generateToken(payload: JwtPayload): string {
+  if (!JWT_SECRET) {
+    throw new Error('JWT_SECRET environment variable is required');
+  }
+  return jwt.sign(payload, JWT_SECRET, { expiresIn: JWT_EXPIRY });
+}
+
+export function verifyToken(token: string): JwtPayload {
+  if (!JWT_SECRET) {
+    throw new Error('JWT_SECRET environment variable is required');
+  }
+  try {
+    return jwt.verify(token, JWT_SECRET) as JwtPayload;
+  } catch (error) {
+    throw new Error(`Invalid token: ${(error as Error).message}`);
+  }
+}
+
+export function generateRefreshToken(payload: JwtPayload): string {
+  if (!JWT_SECRET) {
+    throw new Error('JWT_SECRET environment variable is required');
+  }
+  return jwt.sign(payload, JWT_SECRET, { expiresIn: JWT_REFRESH_EXPIRY });
+}
+
+export function generatePasswordResetToken(userId: string): string {
+  if (!JWT_SECRET) {
+    throw new Error('JWT_SECRET environment variable is required');
+  }
+  const payload: JwtPayload = {
+    userId,
+    type: 'password-reset',
+    iat: Math.floor(Date.now() / 1000)
+  };
+  return jwt.sign(payload, JWT_SECRET, { expiresIn: '1h' });
+}
+
+export function verifyPasswordResetToken(token: string): JwtPayload {
+  const decoded = verifyToken(token);
+  if (decoded.type !== 'password-reset') {
+    throw new Error('Invalid token type for password reset');
+  }
+  return decoded;
+}
+>>>END
+<<<FILE: src/app.ts>>>
+<<<OLD
+import express from 'express';
+import cors from 'cors';
+>>>NEW
+import express from 'express';
+import cors from 'cors';
+import { JwtService } from './auth/jwt.service';
+>>>END
+<<<FILE: src/auth/authentication.ts>>>
+<<<OLD
+export function verifyToken(token: string) {
+  const secret = process.env.JWT_SECRET;
+  const decoded = jwt.verify(token, secret);
+  return decoded;
+}
+>>>NEW
+export function verifyToken(token: string) {
+  const secret = process.env.JWT_SECRET;
+  const decoded = jwt.verify(token, secret);
+  return decoded;
+}
+
+export function generatePasswordResetToken(userId: string): string {
+  const payload = {
+    userId,
+    type: 'password-reset',
+    timestamp: Date.now()
+  };
+  const secret = process.env.JWT_SECRET;
+  return jwt.sign(payload, secret, { expiresIn: '1h' });
+}
+
+export function verifyPasswordResetToken(token: string) {
+  try {
+    const secret = process.env.JWT_SECRET;
+    const decoded = jwt.verify(token, secret) as any;
+    if (decoded.type !== 'password-reset') {
+      throw new Error('Invalid token type');
+    }
+    return decoded;
+  } catch (error) {
+    throw new Error(`Invalid reset token: ${(error as Error).message}`);
+  }
+}
+>>>END
 
 
 
