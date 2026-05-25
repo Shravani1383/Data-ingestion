@@ -1,0 +1,238 @@
+Here are the design prompts for the three key reframing changes:
+
+---
+
+### 1. Corporate Client Outcome Dashboard — New Screen Before Supplier Intelligence
+
+```
+Create a new dashboard screen that appears before the 
+supplier intelligence workspace. This is the corporate 
+client's value summary screen.
+
+Header: "StyleSphere Apparel — Transition Value Dashboard"
+Subtitle in gray: "Your sustainability transition progress 
+and unlocked opportunities"
+
+Show a 3-column value summary banner at the top 
+in white cards with colored left border accents:
+
+Card 1 — Business Resilience (blue left border)
+- Icon: shield with checkmark
+- Headline: "14 Supply Chain Risks Identified"
+- Subtext: "Early visibility prevents regulatory 
+  and reputational exposure"
+- Tag chip: "Before they became problems"
+
+Card 2 — Cost Savings (green left border)
+- Icon: downward arrow with dollar sign
+- Headline: "$340K Annual Savings Unlocked"
+- Subtext: "Reduced cost of capital through 
+  HSBC sustainability-linked financing 
+  + supply chain efficiency gains"
+- Tag chip: "Rate reduction eligible"
+
+Card 3 — Revenue Opportunities (red left border, HSBC red)
+- Icon: upward trending arrow
+- Headline: "$240K Revenue Potential Identified"
+- Subtext: "Green certification unlocks EU product 
+  labelling, 3 premium buyer programs, 
+  and new sustainable procurement contracts"
+- Tag chip: "3 programs accessible now"
+
+Below the 3 cards, show a single progress bar 
+labeled "StyleSphere ESG Rating" going from 
+a baseline score of 42 on the left to a 
+projected score of 74 on the right with 
+a dotted arrow showing trajectory.
+Label below left: "Current"
+Label below right: "Projected — 12 months"
+Bar color: transitions from amber on left to green on right.
+
+Below that, a single CTA button in HSBC red:
+"View Supply Chain Intelligence →"
+Subtext beneath button in gray: 
+"See how your supply chain drives these outcomes"
+
+Page background: light gray (#F5F5F5).
+Card backgrounds: white.
+Font: clean sans-serif matching HSBC brand.
+```
+
+---
+
+### 2. Reframe Supplier Journey Hero Card — Scope 3 Impact on StyleSphere
+
+```
+On the existing supplier profile overview screen 
+for Coats Holdings Ltd, replace the current 
+dark navy hero banner that reads:
+"+32 pts | $180K/yr | 28–35% | 6–12 mo"
+
+With a two-section hero banner:
+
+TOP SECTION — dark navy background, 
+labeled "Impact on StyleSphere Apparel" 
+with a small upward link icon:
+Show 3 metric cards in a row:
+- "−8% Scope 3" | "StyleSphere Category 1 
+  reduction when Coats transitions" | green
+- "ESG Score +12pts" | "StyleSphere rating 
+  improvement unlocking next financing tier" | blue
+- "$120K Savings" | "StyleSphere cost of 
+  capital reduction via HSBC green loan 
+  rate adjustment" | green
+
+BOTTOM SECTION — slightly lighter navy, 
+labeled "Impact on Coats Holdings" 
+with a factory icon:
+Show 3 metric cards in a row:
+- "$180K/yr Estimated Savings"
+- "28–35% Emission Reduction"  
+- "6–12 mo Timeline to Impact"
+
+Divider between sections: thin white 
+horizontal line with label 
+"Supplier Transition Drives Client Value" 
+centered in small caps gray text.
+
+Keep the 3 alert badge pills below 
+the banner exactly as they are:
+"Energy intensity 28% above benchmark"
+"Eligible for HSBC green financing"
+"Potential subsidy detected: $120K"
+Add a 4th badge in red:
+"StyleSphere Scope 3 hotspot — 
+Category 1 largest contributor"
+```
+
+---
+
+### 3. StyleSphere Corporate Outcome Card — Post-Transition Closing Screen
+
+```
+Create a closing summary screen that appears 
+after the supplier notification is sent. 
+This is StyleSphere's outcome view.
+
+Page title: "What StyleSphere Unlocks"
+Subtitle: "Outcomes activated by initiating 
+supplier transitions across your network"
+
+Show a vertical timeline with 4 milestone cards, 
+each with a colored left dot and connector line:
+
+Milestone 1 — Now (green dot, active)
+Title: "Supply Chain Visibility Established"
+Body: "48,200 tCO₂e mapped across 83 suppliers. 
+14 high-risk suppliers identified before 
+regulatory exposure. Scope 3 baseline set."
+Tags: "Resilience" | "Compliance Ready"
+
+Milestone 2 — Month 3 (amber dot, upcoming)
+Title: "Cost of Capital Reduces"
+Body: "Scope 3 reduction progress qualifies 
+StyleSphere for HSBC sustainability-linked 
+loan — 0.3% rate reduction on existing 
+credit facilities. Estimated $120K annual saving."
+Tags: "Cost Saving" | "HSBC Green Finance"
+Right side: small "Notify RM" button in red
+
+Milestone 3 — Month 6 (gray dot, future)
+Title: "Green Revenue Channels Open"
+Body: "GRS certification in progress unlocks 
+EU green product labelling. 3 premium buyer 
+procurement programs become accessible. 
+Estimated $240K revenue potential."
+Tags: "Revenue" | "New Markets"
+
+Milestone 4 — Month 12 (gray dot, future)
+Title: "ESG Rating Upgraded"
+Body: "Projected ESG score moves from 42 to 74. 
+Qualifies StyleSphere for HSBC green bond 
+issuance and sustainability-linked trade 
+finance facilities."
+Tags: "Resilience" | "HSBC Green Bond"
+Right side: small "Explore Green Bond" 
+button in red
+
+Below the timeline, a full-width 
+light red (#FFF5F5) summary banner:
+Left side text: 
+"Total value unlocked for StyleSphere Apparel"
+Center metrics in a row:
+"$340K Cost Savings | $240K Revenue Potential 
+| −18% Scope 3 | ESG +32pts"
+Right side: "Export Client Summary →" 
+button outlined in red
+
+Background: white.
+Timeline line color: light gray.
+Active milestone dot: HSBC red.
+```
+
+---
+
+### 4. Narrative Reframe — Landing Page Subheadline
+
+```
+On the existing landing page, update the 
+subheadline paragraph that currently reads:
+"Upload fragmented supplier invoices, utility 
+bills, procurement exports, and operational 
+documents to automatically identify supplier 
+sustainability risks and generate transition 
+recommendations at scale."
+
+Replace with:
+"HSBC corporate clients unlock measurable 
+resilience, cost savings, and revenue growth 
+through AI-powered supply chain intelligence 
+— turning invisible Scope 3 emissions into 
+a fully funded transition roadmap."
+
+Same font size and style as existing paragraph.
+No other changes to the landing page layout.
+
+Below the two existing CTA buttons 
+"Create Supplier Workspace" and 
+"View Demo Journey", add a single line 
+of small proof text in gray:
+"Used by corporates to unlock avg. $340K 
+in annual value | Powered by HSBC 
+Green Finance"
+```
+
+---
+
+### 5. Script Reframe Prompt — Opening Screen Caption
+
+```
+Add a full-screen opening title card that 
+plays for 3 seconds at the very start of 
+the demo video before the landing page appears.
+
+Dark navy background (#1a1a2e).
+Centered layout, three lines of text:
+
+Line 1 — small caps, gray, tracking wide:
+"THE PROBLEM"
+
+Line 2 — large bold white text, 32px:
+"Corporates have sustainability targets."
+"They have no idea how to fund them."
+
+Line 3 — medium weight, HSBC red, 18px:
+"HSBC Sustainable Transition Copilot"
+"— built to change that."
+
+Bottom right corner: small HSBC logo 
+in white, low opacity.
+No animation needed. Static card.
+Fade to landing page after 3 seconds.
+```
+
+---
+
+**Order to implement these:**
+
+Start with **Prompt 1** — the corporate outcome dashboard — as it immediately repositions the entire demo narrative. Then **Prompt 2** to reframe the supplier card. Then **Prompt 3** for the closing screen. Prompts 4 and 5 are finishing touches that take under 10 minutes each.
