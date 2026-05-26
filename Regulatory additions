@@ -1,0 +1,52 @@
+Section title: "REGULATORY INTELLIGENCE — LIVE"
+Green pulsing dot next to title indicating live data
+
+Show a feed of 4-5 live regulatory updates 
+pulled from real sources:
+
+Row 1 — EU Taxonomy
+Source: EUR-Lex | Fetched: 2 mins ago
+"EU Taxonomy delegated act updated — 
+textile manufacturing now requires 
+additional water disclosure under Article 8"
+Tag: Affects Coats Holdings | Action Required
+
+Row 2 — ZDHC MRSL
+Source: ZDHC Gateway | Fetched: 5 mins ago  
+"ZDHC MRSL v3.1 published — 47 new 
+restricted substances added for 
+dyeing processes"
+Tag: Affects Hanesbrands | Review Needed
+
+Row 3 — HKMA TCFD
+Source: HKMA Portal | Fetched: 12 mins ago
+"HKMA mandates Scope 3 disclosure 
+for listed companies by Q1 2027"
+Tag: Affects StyleSphere | Deadline Flagged
+
+Row 4 — Carbon Border Adjustment
+Source: European Commission | Fetched: 1 hr ago
+"CBAM phase 2 expansion confirmed — 
+textiles included from January 2026"
+Tag: Revenue Risk | $240K exposure flagged
+
+Row 5 — GRS Certification
+Source: Textile Exchange | Fetched: 3 hrs ago
+"GRS v5.0 chain of custody requirements 
+updated — recycled content verification 
+now mandatory at tier 2 suppliers"
+Tag: Affects Supply Chain | Update Required
+
+Each row:
+- Source logo on left
+- Timestamp in gray
+- Update text in dark
+- Colored action tag on right
+- "View Full Update →" link in red
+
+Below the feed:
+"Regulatory data sourced live from 
+EUR-Lex, HKMA, ZDHC Gateway, 
+Textile Exchange, and Carbon Trust 
+via open regulatory APIs"
+in small gray text
