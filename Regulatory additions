@@ -1,3 +1,16 @@
+This fits perfectly in two places:
+
+---
+
+## Best Fit — **ESG Assessment Tab** within Supplier Profile
+
+This is the strongest placement because regulatory compliance is a supplier-level reality — different suppliers operate in different jurisdictions with different frameworks applying to each.
+
+**What to add:**
+
+A live **Regulatory Intelligence Feed** section at the bottom of the ESG Assessment tab.
+
+```
 Section title: "REGULATORY INTELLIGENCE — LIVE"
 Green pulsing dot next to title indicating live data
 
@@ -50,3 +63,32 @@ EUR-Lex, HKMA, ZDHC Gateway,
 Textile Exchange, and Carbon Trust 
 via open regulatory APIs"
 in small gray text
+```
+
+---
+
+## Second Placement — **Transition Intelligence Hub**
+
+Add a small **Regulatory Alerts** card in the existing live intelligence section alongside the four cards already there.
+
+```
+New card — amber left border:
+Title: "3 Regulatory Changes This Week"
+Body: "EU Taxonomy, ZDHC MRSL, and CBAM 
+updates detected — 2 suppliers directly 
+impacted, 1 requiring immediate action"
+Tag: Compliance Risk | Critical
+Button: "View Regulatory Feed →" red
+```
+
+This card acts as a signpost directing users to the full regulatory intelligence in the ESG Assessment tab.
+
+---
+
+## How to Answer the "How Are You Handling It" Question
+
+When this comes up in your demo or presentation, the answer is:
+
+**"Regulatory data is fetched live from open regulatory APIs — EUR-Lex for EU frameworks, HKMA portal for Hong Kong mandates, ZDHC Gateway for chemical compliance, Textile Exchange for certification standards, and the European Commission for CBAM updates. Each update is automatically mapped against the specific suppliers and jurisdictions it applies to — so instead of a company manually tracking 50-plus global taxonomies, the platform surfaces only the regulations material to their specific supply chain, in real time, with the action required already identified."**
+
+This directly addresses Challenge 4 from Alice Swan's brief and scores well against the judging criterion of understanding market dynamics globally.
