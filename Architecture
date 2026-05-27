@@ -1,0 +1,306 @@
+Create a full screen platform architecture 
+overview — this is the FIRST screen of 
+the entire user journey, shown before 
+the demo begins. It gives a complete 
+visual map of how the platform works 
+from data ingestion all the way to 
+supplier transition.
+
+BACKGROUND: Dark navy (#0a1628) full screen.
+
+TOP CENTER:
+Small red caps label: "PLATFORM ARCHITECTURE"
+Large white bold heading below:
+"From Fragmented Data to 
+Funded Transition — End to End"
+Gray subtext: "How the HSBC Sustainable 
+Transition Copilot works"
+
+---
+
+MAIN SECTION — Horizontal Flow Map:
+
+Seven connected stages flowing 
+left to right across the screen.
+Each stage is a node/column.
+Animated flowing lines connect 
+each stage to the next — 
+same dotted moving dot animation 
+as the loading screen.
+
+---
+
+STAGE 1 — "DATA INGESTION"
+Node color: dark card, red top border.
+Icon: database with multiple arrows 
+pointing into it.
+Title in white: "Data Ingestion"
+Subtitle in gray: "Multiple sources connected"
+
+Below title show 7 small source pills 
+in 2 rows:
+Row 1: Outlook | SharePoint | SAP
+Row 2: WhatsApp | Google Sheets | 
+        Fleet | Energy Bills
+
+Bottom of node in small gray text:
+"1,248 documents"
+"4 connected systems"
+
+Small green pulsing dot 
+bottom right of node:
+"LIVE" label next to it.
+
+---
+
+CONNECTOR ARROW 1→2:
+Animated dotted line with 
+moving dot in red.
+Small label above line:
+"MCP Plugins"
+in tiny gray text.
+
+---
+
+STAGE 2 — "INTELLIGENCE MAPPING"
+Node color: dark card, amber top border.
+Icon: neural network / node graph icon.
+Title: "AI Intelligence Mapping"
+Subtitle: "Data mapped to emission sources"
+
+Show 3 small mapping chips:
+"Entity Resolution"
+"Emission Categorisation"  
+"Regulatory Cross-referencing"
+
+Bottom of node:
+"83 suppliers unified"
+"47,392 data points processed"
+
+---
+
+CONNECTOR ARROW 2→3:
+Label above: "Carbon Engine"
+
+---
+
+STAGE 3 — "CARBON FOOTPRINT"
+Node color: dark card, 
+split into 3 colored sections:
+Top section red: "Scope 1 — 8,400"
+Mid section amber: "Scope 2 — 11,200"
+Bottom section gray: "Scope 3 — 48,200"
+
+Title above node in white:
+"Client Carbon Footprint"
+Subtitle: "Full 3-scope visibility"
+
+Bottom of node:
+"67,800 tCO₂e total"
+"HSBC rate differential: $120K"
+
+Small HSBC logo with 
+"Exclusive Intelligence" 
+in tiny red text at bottom.
+
+---
+
+CONNECTOR ARROW 3→4:
+Label above: "Scope 3 Deep Dive"
+
+---
+
+STAGE 4 — "SCOPE 3 INTELLIGENCE"
+Node color: dark card, gray top border.
+Icon: supply chain network icon.
+Title: "Scope 3 Intelligence"
+Subtitle: "Supply chain breakdown"
+
+Show 4 small chips in 2 rows:
+"Client Breakdown"
+"Supplier Breakdown"
+"Emission Hotspots"
+"Risk Network"
+
+Below chips, 
+a small regulatory feed box 
+inside the node:
+Red pulsing dot + 
+"REGULATORY LIVE FEED" 
+in tiny red caps.
+Two tiny rows below:
+"EU CBAM — 2 suppliers affected"
+"ZDHC MRSL v3.1 updated"
+Source tags: "EUR-Lex | ZDHC Gateway"
+
+Bottom of node:
+"14 high-risk suppliers"
+"18% reduction opportunity"
+
+---
+
+CONNECTOR ARROW 4→5:
+Label above: "Automated Alerts"
+
+---
+
+STAGE 5 — "NOTIFY SUPPLIERS"
+Node color: dark card, blue top border.
+Icon: notification bell with 
+multiple arrows going outward.
+Title: "Notify & Engage"
+Subtitle: "Multi-channel supplier outreach"
+
+Show 3 notification type chips:
+"Transition Invitation"
+"ESG Assessment Request"
+"Financing Opportunity"
+
+Below chips show 2 channel pills:
+"Email" | "Supplier Portal"
+
+Bottom of node:
+"6 suppliers notified"
+"Pre-mapped to EU Taxonomy, 
+TCFD, GRS, ZDHC"
+in tiny gray text.
+
+---
+
+CONNECTOR ARROW 5→6:
+Label above: "Supplier Access"
+Arrow splits here into two paths —
+one going to Stage 6 (supplier report)
+one going to Stage 7 (supplier roadmap).
+The split shown as a Y-fork 
+in the animated line.
+
+---
+
+STAGE 6 — "SUPPLIER REPORT"
+Node color: dark card, green top border.
+Slightly smaller node than others
+as it is one branch of the split.
+Icon: document with checkmark.
+Title: "Supplier Report"
+Subtitle: "What we found for your business"
+
+Show 3 report chips:
+"ESG Maturity Score"
+"Emission Hotspots"
+"Regulatory Compliance"
+
+Small live feed inside node:
+Green pulsing dot + 
+"LIVE DATA" in tiny green caps.
+One tiny row:
+"Subsidies fetched in real time"
+
+Bottom of node:
+"Personalised to each supplier"
+
+---
+
+STAGE 7 — "SUPPLIER TRANSITION ROADMAP"
+Node color: dark card, 
+HSBC red top border.
+This is the largest node 
+as it is the richest stage.
+Icon: rocket or upward path icon.
+Title: "Supplier Roadmap"
+Subtitle: "6-phase funded transition"
+
+Show 6 phase pills in 2 rows:
+Row 1: "Assess" | "Recommend" | "Connect"
+Row 2: "Finance" | "Incentivize" | "Optimize"
+
+Below pills show 4 access cards 
+in a 2x2 mini grid inside the node:
+
+Mini Card 1 — green background:
+Small shop icon
+"Green Vendors"
+"Marketplace + quotes"
+
+Mini Card 2 — blue background:
+Small person icon
+"Consultants"
+"Verified specialists"
+
+Mini Card 3 — amber background:
+Small government icon
+"Subsidies"
+"Live govt. data"
+
+Mini Card 4 — red background:
+Small HSBC logo
+"HSBC Financing"
+"Green loans + bonds"
+
+Bottom of node in white bold:
+"28–35% emission reduction"
+"$180K savings/yr"
+
+---
+
+BOTTOM OF SCREEN:
+Full width light strip 
+above bottom edge.
+Three summary stats centered 
+in a row in white:
+
+"$340K client value unlocked"
+Separator dot
+"67,800 tCO₂e footprint mapped"
+Separator dot  
+"End-to-end in one platform"
+
+Below stats in small gray text:
+"Regulatory intelligence sourced live 
+from EUR-Lex, HKMA, ZDHC Gateway, 
+Textile Exchange and European Commission"
+
+Far right bottom corner:
+Small HSBC logo in white low opacity.
+
+---
+
+OVERALL LAYOUT NOTES:
+
+Screen is horizontally scrollable 
+if needed on smaller displays 
+but ideally fits in one view 
+on a standard widescreen.
+
+Stages 1-5 are equal size nodes.
+Stages 6 and 7 are slightly 
+smaller as they sit as 
+two branches of the Y-fork.
+
+All connecting lines have 
+animated moving dots 
+flowing left to right 
+continuously — showing 
+live data movement through 
+the platform at all times.
+
+Each node has a subtle 
+glowing border animation — 
+not distracting but alive.
+
+The regulatory live feed 
+inside Stage 4 and the 
+live data indicator inside 
+Stage 6 are the only 
+pulsing elements — 
+drawing attention to 
+the real-time data aspect.
+
+FEEL: A mission control 
+architecture map. Clean, 
+intelligent, everything 
+connected. Should make 
+the viewer understand 
+the full platform in 
+under 10 seconds before 
+the demo begins.
