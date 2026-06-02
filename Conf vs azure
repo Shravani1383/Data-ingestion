@@ -1,0 +1,93 @@
+Here's a clean summary of both approaches, plus the proof on why Microsoft OBO can't work natively with Confluence.
+
+---
+
+## Approach 1 — Atlassian Only (3LO)
+
+**How it works:**
+User consents once → your backend stores the refresh token → all future Confluence API calls are silent and backend-only.
+
+**Flow:**
+```
+User → Atlassian consent screen (one time)
+     → Your backend stores refresh_token
+     → Backend silently refreshes → calls Confluence API as user
+```
+
+**Pros:**
+- Simple, straightforward — one system to manage
+- Native Confluence user-level access
+- Well-documented by Atlassian
+
+**Cons:**
+- No enterprise identity layer (no Azure AD, no SSO)
+- User must visit Atlassian's consent screen specifically
+- Tokens tied to Atlassian account, not your corporate identity
+
+**Best for:** Standalone integrations, simple apps, non-enterprise environments.
+
+---
+
+## Approach 2 — Microsoft OBO + Atlassian 3LO (Combined)
+
+**How it works:**
+User logs in via corporate Azure AD SSO → your backend uses Microsoft OBO to identify the user → uses stored Atlassian refresh token to call Confluence on their behalf.
+
+**Flow:**
+```
+User → Azure AD login (corporate SSO)
+     → Backend: Microsoft OBO token exchange (identity verification)
+     → Backend: lookup stored Atlassian refresh_token by user email
+     → Backend: refresh → call Confluence API as user
+```
+
+**Pros:**
+- Leverages existing corporate SSO — no separate Atlassian login
+- Microsoft OBO gives you a stronger, enterprise-grade identity chain
+- Better audit trail — actions linked to corporate identity
+- Users already logged into Microsoft don't notice any extra auth
+
+**Cons:**
+- More complex — two auth systems to manage
+- Still requires one-time Atlassian consent per user
+- More tokens to store and rotate
+
+**Best for:** Enterprise environments where users are already on Microsoft 365 / Azure AD.
+
+---
+
+## Why Microsoft OBO Cannot Natively Replace Atlassian Auth
+
+This is the critical point. Here's the proof from Atlassian's own official documentation:
+
+**1. Confluence Cloud only accepts tokens from Atlassian's own auth server**
+
+The Confluence Cloud REST API explicitly states: authentication is implemented via JWT or OAuth 2.0 only — and for direct REST API calls, it supports Basic Auth only. There is no mention of accepting third-party tokens. [Atlassian](https://developer.atlassian.com/cloud/confluence/rest/v1/intro/)
+
+**2. Atlassian's token endpoint is `auth.atlassian.com` — not Azure**
+
+The Confluence API access token is obtained exclusively by posting to Atlassian's own token URL (`https://auth.atlassian.com/oauth/token`) and can only be used to access the Atlassian site on the user's behalf after going through Atlassian's own authorization flow. [Atlassian](https://developer.atlassian.com/cloud/confluence/oauth-2-3lo-apps/)
+
+**3. Azure AD + Confluence = SSO only (SAML), not API auth**
+
+The Microsoft Entra SSO plugin for Confluence provides only SAML 2.0-based single sign-on — it does not extend to API-level authentication or token delegation. It is purely for login, not for programmatic API access. [Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/ms-confluence-jira-plugin-adminguide)
+
+**4. Confluence API's own auth methods are fixed**
+
+The Confluence Cloud REST API authentication supports only two methods: OAuth 2.0 three-legged (user context via Atlassian) and API token via HTTP Basic Auth. There is no support for external token providers like Azure AD. [Stitchflow](https://www.stitchflow.com/user-management/atlassian-confluence/api)
+
+---
+
+## Side-by-Side Comparison
+
+| | Atlassian 3LO Only | Microsoft OBO + Atlassian 3LO |
+|---|---|---|
+| User action required | Once (Atlassian consent) | Once (Azure login + Atlassian consent) |
+| Identity provider | Atlassian | Microsoft Entra ID (primary) |
+| Confluence API auth | Atlassian OAuth token | Atlassian OAuth token |
+| Enterprise SSO fit | ❌ | ✅ |
+| Complexity | Low | Medium-High |
+| Can Microsoft OBO call Confluence directly? | — | ❌ Not possible |
+| Best for | Simple integrations | Enterprise / Microsoft 365 orgs |
+
+**Bottom line:** Microsoft OBO is a powerful identity layer but Confluence's API is a closed system — it only accepts tokens issued by `auth.atlassian.com`. Microsoft OBO must sit alongside Atlassian 3LO, not replace it.
